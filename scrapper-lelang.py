@@ -221,7 +221,7 @@ def main():
 if __name__ == "__main__":
     main()
 
-    # Tambahkan di bagian akhir scraper.py (setelah menyimpan CSV):
+# Simpan ke data.json agar dibaca oleh index.html:
     output_json = "data.json"
     if results:
         with open(output_json, "w", encoding="utf-8") as f:
