@@ -27,7 +27,6 @@ BULAN_INDO = {
 }
 
 def load_existing_database():
-    """Memuat data lama agar lot yang sudah ada tidak dibuka ulang oleh browser."""
     if os.path.exists(DATA_JSON_PATH):
         try:
             with open(DATA_JSON_PATH, "r", encoding="utf-8") as f:
@@ -72,11 +71,9 @@ def extract_title(item):
     return "-"
 
 def extract_deadline_from_page(body_text):
-    """Mengekstrak tanggal dan jam Batas Akhir Penawaran langsung dari teks halaman detail."""
     if not body_text:
         return "-", "-"
 
-    # Pola: "Batas Akhir Penawaran" diikuti tanggal dan jam (misal: 14 Oktober 2026 08:00 WIB)
     pattern = r'Batas\s+(?:Akhir\s+)?Penawaran[\s:\n\r\-]+([0-9]{1,2}\s+[a-zA-Z]+\s+[0-9]{4}(?:[\s,]+[0-9]{1,2}[:.][0-9]{2}(?:\s*(?:WIB|WITA|WIT))?)?)'
     m = re.search(pattern, body_text, re.I)
 
@@ -84,7 +81,6 @@ def extract_deadline_from_page(body_text):
     if m:
         raw_deadline = re.sub(r'[\r\n\t]+', ' ', m.group(1)).strip()
     else:
-        # Fallback pencarian format tanggal Indonesia dengan jam
         m2 = re.search(r'\b([0-9]{1,2}\s+(?:Januari|Februari|Maret|April|Mei|Juni|Juli|Agustus|September|Oktober|November|Desember)\s+[0-9]{4}\s+[0-9]{2}[:.][0-9]{2}(?:\s*(?:WIB|WITA|WIT))?)\b', body_text, re.I)
         if m2:
             raw_deadline = m2.group(1).strip()
@@ -92,7 +88,6 @@ def extract_deadline_from_page(body_text):
     if raw_deadline == "-":
         return "-", "-"
 
-    # Bentuk format ISO agar JavaScript dapat membandingkan waktu secara akurat
     iso_val = "-"
     m_iso = re.search(r'([0-9]{1,2})\s+([a-zA-Z]+)\s+([0-9]{4})(?:[\s,]+([0-9]{1,2})[:.]([0-9]{2}))?', raw_deadline)
     if m_iso:
@@ -118,7 +113,7 @@ def parse_specs_from_text(text):
         return "-", "-", "-", "-"
     text_clean = str(text)
 
-    # 1. Nomor Polisi
+    # Nopol
     nopol = "-"
     m_pol = re.search(r'(?:nomor\s*polisi|no\.?\s*polisi|nopol|plat(?:\s*nomor)?)\s*[:\s\-]*([a-zA-Z]{1,2}\s*\d{1,4}\s*[a-zA-Z]{1,3})', text_clean, re.I)
     if m_pol:
@@ -129,7 +124,7 @@ def parse_specs_from_text(text):
         if m_pol2:
             nopol = f"{m_pol2.group(1)} {m_pol2.group(2)} {m_pol2.group(3)}"
 
-    # 2. Tahun Pembuatan
+    # Tahun
     tahun = "-"
     m_thn = re.search(r'(?:tahun(?:\s*pembuatan|\s*rakit)?|thn\.?|th\.)\s*[:\s\-]*\b(19[89]\d|20[0-2]\d)\b', text_clean, re.I)
     if m_thn:
@@ -140,13 +135,13 @@ def parse_specs_from_text(text):
         if m_thn2:
             tahun = m_thn2[0]
 
-    # 3. Warna
+    # Warna
     warna = "-"
     m_warna = re.search(r'(?:warna)\s*[:\s\-]*([a-zA-Z\s]{3,25})', text_clean, re.I)
     if m_warna:
         warna = re.sub(r'\s+', ' ', m_warna.group(1).split("\n")[0].strip().upper())
 
-    # 4. Nomor Rangka
+    # Nomor Rangka
     norangka = "-"
     m_rangka = re.search(r'(?:nomor\s*rangka|no\.?\s*rangka|norangka|noka|no\.?\s*chasis|vin)\s*[:\s\-]*([a-zA-Z0-9]{8,25})', text_clean, re.I)
     if m_rangka:
@@ -172,7 +167,6 @@ def main():
 
     kpknl_map = load_kpknl_map(session)
 
-    # 1. Ambil seluruh lot yang sedang aktif di portal lelang
     active_catalog_items = []
     current_page = 1
     total_pages = 1
@@ -213,7 +207,6 @@ def main():
         auc_id = str(item.get("lotLelangId") or cat_id).strip()
         active_lot_ids.add(auc_id)
 
-        # Jika data belum memiliki nomor rangka ATAU batas penawaran masih kosong, masukkan ke antrean scraping
         is_complete = (
             auc_id in existing_db and 
             existing_db[auc_id].get("Nomor Rangka") not in ("-", "", None) and
@@ -225,10 +218,9 @@ def main():
         else:
             items_to_scrape.append((auc_id, item))
 
-    print(f"[*] Lot baru / butuh update jam batas lelang: {len(items_to_scrape)} unit.")
-    print(f"[*] Lot lama tidak perlu dibuka ulang: {len(active_catalog_items) - len(items_to_scrape)} unit.")
+    print(f"[*] Lot baru / butuh update detail: {len(items_to_scrape)} unit.")
+    print(f"[*] Lot lama dilewati (menghemat waktu): {len(active_catalog_items) - len(items_to_scrape)} unit.")
 
-    # 2. Buka Playwright untuk unit yang belum lengkap
     if items_to_scrape:
         with sync_playwright() as p:
             browser = p.chromium.launch(headless=True)
@@ -249,14 +241,13 @@ def main():
                 judul = extract_title(item)
                 link_url = f"https://lelang.go.id/kpknl/{kpknl_uuid}/detail-auction/{auc_id}" if kpknl_uuid != "-" else f"https://lelang.go.id/lot-lelang/detail/{auc_id}"
 
-                print(f"[{idx}/{len(items_to_scrape)}] Membuka halaman detail: {judul[:35]}...")
+                print(f"[{idx}/{len(items_to_scrape)}] Membaca lot: {judul[:35]}...")
 
                 nopol, tahun, warna, norangka = "-", "-", "-", "-"
                 foto_url = "-"
                 deadline_text, deadline_iso = "-", "-"
 
-               try:
-                    # Buka URL dengan penanganan error bersih
+                try:
                     page.goto(link_url, timeout=25000, wait_until="domcontentloaded")
                     page.wait_for_timeout(2500)
                     body_text = page.inner_text("body")
@@ -272,7 +263,6 @@ def main():
                             break
                 except Exception as err:
                     print(f"    [!] Error membaca lot: {err}")
-                    # Buat tab baru jika terjadi error/timeout agar tidak macet di chrome-error
                     try:
                         page.close()
                         page = browser.new_page(
@@ -307,18 +297,15 @@ def main():
 
             browser.close()
 
-    # 3. Tandai unit yang sudah tidak ada di website DJKN sebagai "selesai"
     for stored_id, data in existing_db.items():
         if stored_id not in active_lot_ids:
             data["Status"] = "selesai"
 
-    # Susun ulang nomor urut
     final_results = []
     for idx, (auc_id, data) in enumerate(existing_db.items(), 1):
         data["No"] = idx
         final_results.append(data)
 
-    # 4. Simpan ke JSON dan CSV
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as f:
         json.dump(final_results, f, ensure_ascii=False, indent=2)
 

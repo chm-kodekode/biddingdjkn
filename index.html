@@ -8,108 +8,264 @@
   <script src="https://cdn.tailwindcss.com"></script>
   <script src="https://unpkg.com/lucide@latest"></script>
 </head>
-<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+<body class="bg-slate-100 text-slate-800 font-sans min-h-screen flex flex-col">
 
-  <!-- Header / Navbar -->
+  <!-- Header / Navbar Penuh -->
   <header class="bg-gradient-to-r from-blue-900 to-indigo-800 text-white shadow-md sticky top-0 z-30">
-    <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-3">
-      <div class="flex items-center gap-3">
-        <i data-lucide="car" class="w-8 h-8 text-yellow-400"></i>
+    <div class="w-full px-4 sm:px-6 py-2.5 flex flex-col sm:flex-row justify-between items-center gap-2">
+      <div class="flex items-center gap-2.5">
+        <i data-lucide="car" class="w-6 h-6 text-yellow-400"></i>
         <div>
-          <h1 class="text-xl sm:text-2xl font-bold tracking-tight">Katalog Lelang Mobil Resmi</h1>
-          <p class="text-xs sm:text-sm text-blue-200">Data otomatis dari portal resmi lelang.go.id</p>
+          <h1 class="text-base sm:text-lg font-bold tracking-tight">Katalog Lelang Mobil Resmi</h1>
+          <p class="text-[11px] text-blue-200">Data otomatis dari portal resmi lelang.go.id</p>
         </div>
       </div>
-      <div id="last-update" class="text-xs bg-white/10 px-3 py-1.5 rounded-full border border-white/20">
+      <div id="last-update" class="text-xs bg-white/10 px-3 py-1 rounded-full border border-white/20">
         Memuat data...
       </div>
     </div>
   </header>
 
-  <!-- Filter & Kontrol Pencarian -->
-  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
-    <div class="bg-white p-4 sm:p-5 rounded-2xl shadow-sm border border-slate-200 mb-6 flex flex-col sm:flex-row gap-4 items-center justify-between">
-      <!-- Input Search -->
-      <div class="relative w-full sm:w-96">
-        <i data-lucide="search" class="w-5 h-5 absolute left-3 top-3 text-slate-400"></i>
-        <input type="text" id="search-box" placeholder="Cari unit, plat nopol, kota, atau nomor rangka..." 
-               class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition">
+  <!-- Konten Utama (Lebar Penuh) -->
+  <main class="w-full px-3 sm:px-6 py-3.5 flex-1">
+    
+    <!-- Filter & Toolbar Pencarian Kompak -->
+    <div class="bg-white p-3 rounded-xl shadow-xs border border-slate-200 mb-3 flex flex-col lg:flex-row gap-2.5 items-center justify-between">
+      <div class="relative w-full lg:w-72">
+        <i data-lucide="search" class="w-4 h-4 absolute left-3 top-2.5 text-slate-400"></i>
+        <input type="text" id="search-box" placeholder="Cari unit, nopol, warna, rangka..." 
+               class="w-full pl-9 pr-3 py-1.5 bg-slate-50 border border-slate-300 rounded-lg text-xs focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition">
       </div>
 
-      <!-- Filter KPKNL & Urutan -->
-      <div class="flex gap-2 w-full sm:w-auto">
-        <select id="sort-select" class="bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 w-full sm:w-auto">
+      <div class="flex flex-wrap sm:flex-nowrap gap-2 w-full lg:w-auto items-center">
+        <!-- Filter Wilayah -->
+        <select id="region-filter" class="bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium text-slate-700 w-full sm:w-auto">
+          <option value="all">📍 Semua Wilayah</option>
+          <option value="jawa" selected>⭐ Khusus Pulau Jawa (Semua)</option>
+          <option value="jabodetabek_banten">↳ DKI Jakarta & Banten</option>
+          <option value="jabar">↳ Jawa Barat</option>
+          <option value="jateng_diy">↳ Jawa Tengah & DIY</option>
+          <option value="jatim">↳ Jawa Timur</option>
+          <option value="luar_jawa">Luar Pulau Jawa</option>
+        </select>
+
+        <!-- Filter Status Aktif / Kedaluwarsa -->
+        <select id="status-filter" class="bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-blue-600 font-medium text-slate-700 w-full sm:w-auto">
+          <option value="aktif_only" selected>🟢 Hanya Lelang Aktif</option>
+          <option value="all">Semua (Termasuk Selesai)</option>
+          <option value="expired_only">🔴 Hanya Selesai / Ditutup</option>
+        </select>
+
+        <!-- Filter Urutan -->
+        <select id="sort-select" class="bg-slate-50 border border-slate-300 rounded-lg px-2.5 py-1.5 text-xs focus:outline-none focus:ring-2 focus:ring-blue-600 w-full sm:w-auto">
           <option value="default">Urutan Default</option>
           <option value="price-asc">Harga Terendah</option>
           <option value="price-desc">Harga Tertinggi</option>
           <option value="year-desc">Tahun Terbaru</option>
         </select>
-        <button id="download-csv" class="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-4 py-2 rounded-xl transition shadow-sm whitespace-nowrap">
-          <i data-lucide="download" class="w-4 h-4"></i> Unduh CSV
+
+        <button id="download-csv" class="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-xs font-medium px-3 py-1.5 rounded-lg transition shadow-2xs whitespace-nowrap">
+          <i data-lucide="download" class="w-3.5 h-3.5"></i> Unduh CSV
         </button>
       </div>
     </div>
 
     <!-- Statistik Ringkas -->
-    <div class="flex justify-between items-center mb-4 px-1">
-      <span id="counter" class="text-sm font-medium text-slate-500">Menampilkan 0 unit</span>
+    <div class="flex justify-between items-center mb-1.5 px-1">
+      <span id="counter" class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Menampilkan 0 unit</span>
+      <span class="text-[11px] text-slate-400 italic hidden sm:inline">*Klik gambar untuk zoom foto</span>
     </div>
 
-    <!-- Grid Kartu Mobil -->
-    <div id="grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
-      <!-- Kartu-kartu mobil akan dimasukkan ke sini oleh JavaScript -->
-    </div>
+    <!-- Container Tabel Data Pas 1 Layar (table-fixed) -->
+    <div class="bg-white rounded-xl shadow-xs border border-slate-200 overflow-hidden w-full">
+      <div class="max-h-[75vh] overflow-y-auto relative w-full">
+        <table class="w-full table-fixed text-left text-xs border-collapse">
+          <thead class="bg-slate-50 text-slate-600 font-semibold text-[11px] border-b border-slate-200 sticky top-0 z-20 shadow-2xs">
+            <tr>
+              <th class="py-2 px-1 text-center w-[3%] bg-slate-50">No</th>
+              <th class="py-2 px-1 text-center w-[5%] bg-slate-50">Foto</th>
+              <th class="py-2 px-2 w-[26%] bg-slate-50">Nama / Unit Kendaraan</th>
+              <th class="py-2 px-1 text-center w-[5%] bg-slate-50">Tahun</th>
+              <th class="py-2 px-1.5 text-center w-[8%] bg-slate-50">No. Polisi</th>
+              <th class="py-2 px-1.5 text-center w-[7%] bg-slate-50">Warna</th>
+              <th class="py-2 px-1.5 text-center w-[14%] bg-slate-50">Nomor Rangka</th>
+              <th class="py-2 px-2 text-right w-[11%] bg-slate-50">Nilai Limit</th>
+              <th class="py-2 px-1.5 w-[10%] bg-slate-50">KPKNL</th>
+              <th class="py-2 px-1 text-center w-[7%] bg-slate-50">Batas Waktu</th>
+              <th class="py-2 px-1 text-center w-[4%] bg-slate-50">Aksi</th>
+            </tr>
+          </thead>
+          <tbody id="table-body" class="divide-y divide-slate-100 text-slate-700">
+          </tbody>
+        </table>
+      </div>
 
-    <!-- Pesan Kosong / Loading -->
-    <div id="empty-state" class="hidden text-center py-16">
-      <i data-lucide="search-x" class="w-12 h-12 mx-auto text-slate-400 mb-2"></i>
-      <p class="text-slate-600 font-medium">Tidak ada unit kendaraan yang cocok.</p>
+      <div id="empty-state" class="hidden text-center py-12">
+        <i data-lucide="search-x" class="w-9 h-9 mx-auto text-slate-400 mb-1.5"></i>
+        <p class="text-slate-600 font-medium text-xs">Tidak ada kendaraan yang cocok dengan filter yang dipilih.</p>
+      </div>
     </div>
   </main>
 
-  <!-- Footer -->
-  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
-    Pemantau Lelang Kendaraan • Diperbarui otomatis oleh GitHub Actions
+  <!-- Modal Lightbox Preview Gambar -->
+  <div id="image-modal" class="fixed inset-0 z-50 bg-black/80 hidden items-center justify-center p-4 backdrop-blur-xs" onclick="closeModal()">
+    <div class="relative max-w-2xl max-h-[90vh] bg-white rounded-xl overflow-hidden shadow-2xl p-2" onclick="event.stopPropagation()">
+      <button onclick="closeModal()" class="absolute top-3 right-3 bg-black/60 hover:bg-black text-white p-1 rounded-full z-10 transition">
+        <i data-lucide="x" class="w-4 h-4"></i>
+      </button>
+      <img id="modal-img" src="" alt="Preview Mobil" class="max-h-[75vh] w-auto mx-auto object-contain rounded-lg">
+      <div id="modal-caption" class="p-2.5 text-xs text-center font-medium text-slate-700"></div>
+    </div>
+  </div>
+
+  <footer class="bg-white border-t border-slate-200 py-3 mt-4 text-center text-[11px] text-slate-500">
+    Pemantau Lelang Kendaraan • Diperbarui otomatis dari portal resmi lelang.go.id
   </footer>
 
-  <!-- Script Logika & Rendering Web -->
   <script>
     let allData = [];
 
-    // Format Rupiah
+    const REGIONS = {
+      jabodetabek_banten: ["jakarta", "serang", "tangerang", "bekasi", "bogor"],
+      jabar: ["bandung", "cirebon", "purwakarta", "tasikmalaya"],
+      jateng_diy: ["semarang", "surakarta", "solo", "pekalongan", "purwokerto", "tegal", "kudus", "yogyakarta", "jogja"],
+      jatim: ["surabaya", "sidoarjo", "malang", "madiun", "jember", "pamekasan"]
+    };
+
+    const ALL_JAWA_KEYWORDS = [
+      ...REGIONS.jabodetabek_banten,
+      ...REGIONS.jabar,
+      ...REGIONS.jateng_diy,
+      ...REGIONS.jatim
+    ];
+
+    function checkRegion(kpknlName, filterType) {
+      if (!kpknlName || kpknlName === "-") return false;
+      const name = kpknlName.toLowerCase();
+      if (filterType === "all") return true;
+      const isJava = ALL_JAWA_KEYWORDS.some(kw => name.includes(kw));
+      if (filterType === "jawa") return isJava;
+      if (filterType === "luar_jawa") return !isJava;
+      if (filterType === "jabodetabek_banten") return REGIONS.jabodetabek_banten.some(kw => name.includes(kw));
+      if (filterType === "jabar") return REGIONS.jabar.some(kw => name.includes(kw));
+      if (filterType === "jateng_diy") return REGIONS.jateng_diy.some(kw => name.includes(kw));
+      if (filterType === "jatim") return REGIONS.jatim.some(kw => name.includes(kw));
+      return true;
+    }
+
+    function isItemExpired(item) {
+      if (item['Status'] === 'selesai') return true;
+      const isoStr = item['Batas_ISO'];
+      if (isoStr && isoStr !== "-") {
+        const deadlineDate = new Date(isoStr);
+        if (!isNaN(deadlineDate.getTime())) {
+          return deadlineDate < new Date();
+        }
+      }
+      const deadlineStr = item['Batas Penawaran'];
+      if (!deadlineStr || deadlineStr === "-") return false;
+      const parsedDate = new Date(deadlineStr);
+      if (!isNaN(parsedDate.getTime())) {
+        return parsedDate < new Date();
+      }
+      return false;
+    }
+
     function formatRupiah(numStr) {
       if (!numStr || numStr === "0" || numStr === "-") return "Rp -";
       return "Rp " + numStr;
     }
 
-    // Ambil Data JSON
+    // Format tanggal padat 2 baris agar kolom batas waktu hemat ruang
+    function formatDeadlineCompact(dateStr) {
+      if (!dateStr || dateStr === "-") return "-";
+      const m = dateStr.match(/([0-9]{1,2})\s+([a-zA-Z]+)\s+([0-9]{4})(?:[\s,]+([0-9]{1,2}[:.][0-9]{2}(?:\s*(?:WIB|WITA|WIT))?))?/i);
+      if (m) {
+        const d = m[1];
+        const mon = m[2].substring(0, 3);
+        const y = m[3].substring(2); // Ambil 2 digit tahun terakhir (misal: 26)
+        const t = m[4] || "";
+        return `<div><span class="font-semibold text-slate-700">${d} ${mon} '${y}</span>${t ? `<div class="text-[10px] text-slate-400 font-mono">${t}</div>` : ''}</div>`;
+      }
+      return dateStr;
+    }
+
+    function openModal(src, caption) {
+      const modal = document.getElementById('image-modal');
+      const modalImg = document.getElementById('modal-img');
+      const modalCap = document.getElementById('modal-caption');
+      modalImg.src = src;
+      modalCap.innerText = caption;
+      modal.classList.remove('hidden');
+      modal.classList.add('flex');
+    }
+
+    function closeModal() {
+      const modal = document.getElementById('image-modal');
+      modal.classList.add('hidden');
+      modal.classList.remove('flex');
+    }
+
     async function loadData() {
       try {
         const response = await fetch('data.json?t=' + new Date().getTime());
         if (!response.ok) throw new Error('Data belum ditemukan.');
         allData = await response.json();
         
-        document.getElementById('last-update').innerHTML = `<i data-lucide="check-circle" class="w-3.5 h-3.5 inline mr-1 text-emerald-400"></i> ${allData.length} Unit Tersedia`;
-        renderGrid(allData);
+        const activeCount = allData.filter(d => !isItemExpired(d)).length;
+        document.getElementById('last-update').innerHTML = `<i data-lucide="check-circle" class="w-3.5 h-3.5 inline mr-1 text-emerald-400"></i> ${activeCount} Aktif / ${allData.length} Total`;
+        applyAllFilters();
       } catch (err) {
         document.getElementById('last-update').innerText = "Belum ada file data.json";
-        document.getElementById('grid-container').innerHTML = `
-          <div class="col-span-full text-center py-12 bg-white rounded-2xl border border-dashed border-slate-300">
-            <p class="text-slate-600 font-medium">Data lelang sedang disiapkan oleh GitHub Actions.</p>
-            <p class="text-xs text-slate-400 mt-1">Jalankan workflow scraper pertama kali untuk membuat data.</p>
-          </div>
+        document.getElementById('table-body').innerHTML = `
+          <tr>
+            <td colspan="11" class="text-center py-10 text-slate-500">
+              <p class="font-medium text-xs">Data lelang sedang disiapkan atau belum di-upload.</p>
+              <p class="text-[11px] text-slate-400 mt-0.5">Jalankan update.bat untuk memperbarui data.</p>
+            </td>
+          </tr>
         `;
       }
       lucide.createIcons();
     }
 
-    // Render Grid Kartu Kendaraan
-    function renderGrid(data) {
-      const container = document.getElementById('grid-container');
+    function applyAllFilters() {
+      const q = document.getElementById('search-box').value.toLowerCase();
+      const regionVal = document.getElementById('region-filter').value;
+      const statusVal = document.getElementById('status-filter').value;
+      const sortVal = document.getElementById('sort-select').value;
+
+      let filtered = allData.filter(d => {
+        const expired = isItemExpired(d);
+        if (statusVal === "aktif_only" && expired) return false;
+        if (statusVal === "expired_only" && !expired) return false;
+
+        const matchRegion = checkRegion(d['KPKNL Penyelenggara'], regionVal);
+        const matchSearch = !q || (
+          (d['Nama / Unit Kendaraan'] && d['Nama / Unit Kendaraan'].toLowerCase().includes(q)) ||
+          (d['Nomor Polisi'] && d['Nomor Polisi'].toLowerCase().includes(q)) ||
+          (d['Nomor Rangka'] && d['Nomor Rangka'].toLowerCase().includes(q)) ||
+          (d['Warna'] && d['Warna'].toLowerCase().includes(q)) ||
+          (d['Tahun Pembuatan'] && String(d['Tahun Pembuatan']).toLowerCase().includes(q)) ||
+          (d['KPKNL Penyelenggara'] && d['KPKNL Penyelenggara'].toLowerCase().includes(q))
+        );
+        return matchRegion && matchSearch;
+      });
+
+      const parseNum = (str) => parseInt(String(str || '0').replace(/[^0-9]/g, '')) || 0;
+      if (sortVal === 'price-asc') filtered.sort((a, b) => parseNum(a['Nilai Limit (Rp)']) - parseNum(b['Nilai Limit (Rp)']));
+      if (sortVal === 'price-desc') filtered.sort((a, b) => parseNum(b['Nilai Limit (Rp)']) - parseNum(a['Nilai Limit (Rp)']));
+      if (sortVal === 'year-desc') filtered.sort((a, b) => parseNum(b['Tahun Pembuatan']) - parseNum(a['Tahun Pembuatan']));
+
+      renderTable(filtered);
+    }
+
+    function renderTable(data) {
+      const tbody = document.getElementById('table-body');
       const emptyState = document.getElementById('empty-state');
       const counter = document.getElementById('counter');
 
-      container.innerHTML = '';
+      tbody.innerHTML = '';
       counter.innerText = `Menampilkan ${data.length} unit kendaraan`;
 
       if (data.length === 0) {
@@ -118,97 +274,106 @@
       }
       emptyState.classList.add('hidden');
 
-      data.forEach(item => {
+      data.forEach((item, index) => {
+        const expired = isItemExpired(item);
         const hasPhoto = item['Link Foto'] && item['Link Foto'].startsWith('http');
-        const photoSrc = hasPhoto ? item['Link Foto'] : 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60';
+        const photoSrc = hasPhoto ? item['Link Foto'] : 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=200&auto=format&fit=crop&q=60';
         
-        const card = document.createElement('div');
-        card.className = "bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col";
-        card.innerHTML = `
-          <!-- Gambar Mobil -->
-          <div class="relative h-48 bg-slate-100 overflow-hidden group">
-            <img src="${photoSrc}" alt="${item['Nama / Unit Kendaraan']}" 
-                 class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
-                 onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60'">
-            <span class="absolute top-3 left-3 bg-blue-900/90 text-white font-semibold text-xs px-2.5 py-1 rounded-lg backdrop-blur-sm">
-              ${item['Tahun Pembuatan'] !== '-' ? 'Thn ' + item['Tahun Pembuatan'] : 'Tahun -'}
-            </span>
-            <span class="absolute top-3 right-3 bg-slate-900/80 text-white font-mono text-xs px-2.5 py-1 rounded-lg backdrop-blur-sm">
-              ${item['Nomor Polisi'] !== '-' ? item['Nomor Polisi'] : 'Plat -'}
-            </span>
-          </div>
+        const row = document.createElement('tr');
+        row.className = expired 
+          ? "bg-slate-100/70 text-slate-400 opacity-60 border-b border-slate-200 transition-colors" 
+          : "hover:bg-blue-50/50 transition-colors border-b border-slate-100";
 
-          <!-- Rincian Kendaraan -->
-          <div class="p-5 flex-1 flex flex-col justify-between">
-            <div>
-              <div class="flex items-center gap-1.5 text-xs text-slate-500 mb-1.5 font-medium">
-                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-rose-500"></i>
-                <span class="truncate">${item['KPKNL Penyelenggara'] || '-'}</span>
-              </div>
-              <h2 class="font-bold text-slate-800 text-sm leading-snug line-clamp-2 mb-3" title="${item['Nama / Unit Kendaraan']}">
-                ${item['Nama / Unit Kendaraan']}
-              </h2>
+        row.innerHTML = `
+          <!-- No -->
+          <td class="py-2 px-1 text-center font-mono text-[11px] text-slate-400 truncate">${item['No'] || (index + 1)}</td>
 
-              <!-- Spesifikasi Rinci: No Rangka & Warna -->
-              <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs text-slate-600 mb-4 space-y-1">
-                <div class="flex justify-between">
-                  <span class="text-slate-400">Nomor Rangka:</span>
-                  <span class="font-mono font-medium text-slate-800 truncate max-w-[150px]">${item['Nomor Rangka'] || '-'}</span>
-                </div>
-                <div class="flex justify-between">
-                  <span class="text-slate-400">Warna:</span>
-                  <span class="font-medium text-slate-800">${item['Warna'] || '-'}</span>
-                </div>
-              </div>
+          <!-- Foto Thumbnail -->
+          <td class="py-1.5 px-1 text-center">
+            <div class="w-10 h-7 rounded overflow-hidden bg-slate-200 border border-slate-200 cursor-pointer shadow-2xs group relative mx-auto ${expired ? 'filter grayscale' : ''}"
+                 onclick="openModal('${photoSrc}', '${(item['Nama / Unit Kendaraan'] || '').replace(/'/g, "\\'")}')">
+              <img src="${photoSrc}" alt="Thumbnail" class="w-full h-full object-cover group-hover:scale-110 transition duration-150"
+                   onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=200&auto=format&fit=crop&q=60'">
             </div>
+          </td>
 
-            <!-- Harga & Tombol Web Lelang -->
-            <div class="pt-3 border-t border-slate-100 flex items-center justify-between mt-auto">
-              <div>
-                <span class="text-[11px] text-slate-400 block font-medium">Nilai Limit</span>
-                <span class="text-base font-bold text-blue-700">${formatRupiah(item['Nilai Limit (Rp)'])}</span>
-              </div>
-              <a href="${item['Link Katalog']}" target="_blank" 
-                 class="inline-flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-3.5 py-2 rounded-xl transition shadow-sm">
-                Lihat Lot <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
-              </a>
-            </div>
-          </div>
+          <!-- Nama / Unit Kendaraan (Max 2 baris) -->
+          <td class="py-2 px-2 leading-tight">
+            <span class="line-clamp-2 font-medium ${expired ? 'text-slate-500 line-through decoration-slate-400' : 'text-slate-800 hover:text-blue-700'} transition cursor-pointer" 
+                  title="${item['Nama / Unit Kendaraan'] || '-'}">
+              ${item['Nama / Unit Kendaraan'] || '-'}
+            </span>
+            ${expired ? '<span class="inline-block mt-0.5 bg-rose-100 text-rose-700 text-[9px] font-bold px-1 py-0.5 rounded no-underline">DITUTUP</span>' : ''}
+          </td>
+
+          <!-- Tahun -->
+          <td class="py-2 px-1 text-center">
+            <span class="inline-block px-1.5 py-0.5 rounded text-[11px] font-semibold ${!expired && item['Tahun Pembuatan'] !== '-' ? 'bg-blue-100 text-blue-800' : 'text-slate-400'}">
+              ${item['Tahun Pembuatan'] || '-'}
+            </span>
+          </td>
+
+          <!-- Plat No. Polisi -->
+          <td class="py-2 px-1 text-center font-mono text-[11px] font-bold ${expired ? 'text-slate-400' : 'text-slate-700'} truncate">
+            ${item['Nomor Polisi'] !== '-' ? item['Nomor Polisi'] : '<span class="text-slate-300 font-normal">-</span>'}
+          </td>
+
+          <!-- Warna -->
+          <td class="py-2 px-1 text-center text-[11px] truncate" title="${item['Warna'] || '-'}">
+            ${item['Warna'] !== '-' ? item['Warna'] : '<span class="text-slate-300">-</span>'}
+          </td>
+
+          <!-- Nomor Rangka -->
+          <td class="py-2 px-1 text-center font-mono text-[10px]">
+            ${item['Nomor Rangka'] !== '-' ? `<span class="bg-slate-100 px-1 py-0.5 rounded border border-slate-200 block truncate" title="${item['Nomor Rangka']}">${item['Nomor Rangka']}</span>` : '<span class="text-slate-300">-</span>'}
+          </td>
+
+          <!-- Nilai Limit -->
+          <td class="py-2 px-2 text-right font-bold text-xs ${expired ? 'text-slate-400' : 'text-blue-700'} whitespace-nowrap">
+            ${formatRupiah(item['Nilai Limit (Rp)'])}
+          </td>
+
+          <!-- KPKNL -->
+          <td class="py-2 px-1.5 text-[11px] whitespace-nowrap">
+            <span class="truncate block" title="${item['KPKNL Penyelenggara'] || '-'}">
+              ${item['KPKNL Penyelenggara'] || '-'}
+            </span>
+          </td>
+
+          <!-- Batas Waktu Kompak -->
+          <td class="py-2 px-1 text-center text-[11px] leading-tight whitespace-nowrap">
+            ${formatDeadlineCompact(item['Batas Penawaran'])}
+          </td>
+
+          <!-- Tombol Aksi -->
+          <td class="py-2 px-1 text-center">
+            ${expired 
+              ? `<span class="inline-block bg-slate-200 text-slate-400 text-[10px] font-medium px-1.5 py-1 rounded cursor-not-allowed select-none">Tutup</span>`
+              : `<a href="${item['Link Katalog']}" target="_blank" 
+                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[10px] font-semibold px-2 py-1 rounded transition shadow-2xs">
+                   Lot
+                 </a>`
+            }
+          </td>
         `;
-        container.appendChild(card);
+
+        tbody.appendChild(row);
       });
 
       lucide.createIcons();
     }
 
-    // Filter Pencarian Interaktif
-    document.getElementById('search-box').addEventListener('input', (e) => {
-      const q = e.target.value.toLowerCase();
-      const filtered = allData.filter(d => 
-        (d['Nama / Unit Kendaraan'] && d['Nama / Unit Kendaraan'].toLowerCase().includes(q)) ||
-        (d['Nomor Polisi'] && d['Nomor Polisi'].toLowerCase().includes(q)) ||
-        (d['Nomor Rangka'] && d['Nomor Rangka'].toLowerCase().includes(q)) ||
-        (d['KPKNL Penyelenggara'] && d['KPKNL Penyelenggara'].toLowerCase().includes(q))
-      );
-      renderGrid(filtered);
-    });
+    document.getElementById('search-box').addEventListener('input', applyAllFilters);
+    document.getElementById('region-filter').addEventListener('change', applyAllFilters);
+    document.getElementById('status-filter').addEventListener('change', applyAllFilters);
+    document.getElementById('sort-select').addEventListener('change', applyAllFilters);
 
-    // Urutkan Data
-    document.getElementById('sort-select').addEventListener('change', (e) => {
-      let sorted = [...allData];
-      const val = e.target.value;
-      const parseNum = (str) => parseInt(String(str || '0').replace(/[^0-9]/g, '')) || 0;
-
-      if (val === 'price-asc') sorted.sort((a, b) => parseNum(a['Nilai Limit (Rp)']) - parseNum(b['Nilai Limit (Rp)']));
-      if (val === 'price-desc') sorted.sort((a, b) => parseNum(b['Nilai Limit (Rp)']) - parseNum(a['Nilai Limit (Rp)']));
-      if (val === 'year-desc') sorted.sort((a, b) => parseNum(b['Tahun Pembuatan']) - parseNum(a['Tahun Pembuatan']));
-
-      renderGrid(sorted);
-    });
-
-    // Tombol Download CSV
     document.getElementById('download-csv').addEventListener('click', () => {
       window.open('hasil_lelang_mobil.csv', '_blank');
+    });
+
+    document.addEventListener('keydown', (e) => {
+      if (e.key === 'Escape') closeModal();
     });
 
     loadData();
