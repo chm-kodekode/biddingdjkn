@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html lang="id">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Katalog Lelang Mobil DJKN</title>
+  <!-- Tailwind CSS & Lucide Icons -->
+  <script src="https://cdn.tailwindcss.com"></script>
+  <script src="https://unpkg.com/lucide@latest"></script>
+</head>
+<body class="bg-slate-50 text-slate-800 font-sans min-h-screen flex flex-col">
+
+  <!-- Header / Navbar -->
+  <header class="bg-gradient-to-r from-blue-900 to-indigo-800 text-white shadow-md sticky top-0 z-30">
+    <div class="max-w-7xl mx-auto px-4 py-4 sm:px-6 lg:px-8 flex flex-col sm:flex-row justify-between items-center gap-3">
+      <div class="flex items-center gap-3">
+        <i data-lucide="car" class="w-8 h-8 text-yellow-400"></i>
+        <div>
+          <h1 class="text-xl sm:text-2xl font-bold tracking-tight">Katalog Lelang Mobil Resmi</h1>
+          <p class="text-xs sm:text-sm text-blue-200">Data otomatis dari portal resmi lelang.go.id</p>
+        </div>
+      </div>
+      <div id="last-update" class="text-xs bg-white/10 px-3 py-1.5 rounded-full border border-white/20">
+        Memuat data...
+      </div>
+    </div>
+  </header>
+
+  <!-- Filter & Kontrol Pencarian -->
+  <main class="max-w-7xl mx-auto px-4 sm:px-6 lg:px-8 py-6 flex-1 w-full">
+    <div class="bg-white p-4 sm:p-5 rounded-2xl shadow-sm border border-slate-200 mb-6 flex flex-col sm:flex-row gap-4 items-center justify-between">
+      <!-- Input Search -->
+      <div class="relative w-full sm:w-96">
+        <i data-lucide="search" class="w-5 h-5 absolute left-3 top-3 text-slate-400"></i>
+        <input type="text" id="search-box" placeholder="Cari unit, plat nopol, kota, atau nomor rangka..." 
+               class="w-full pl-10 pr-4 py-2 bg-slate-50 border border-slate-300 rounded-xl text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 focus:bg-white transition">
+      </div>
+
+      <!-- Filter KPKNL & Urutan -->
+      <div class="flex gap-2 w-full sm:w-auto">
+        <select id="sort-select" class="bg-slate-50 border border-slate-300 rounded-xl px-3 py-2 text-sm focus:outline-none focus:ring-2 focus:ring-blue-600 w-full sm:w-auto">
+          <option value="default">Urutan Default</option>
+          <option value="price-asc">Harga Terendah</option>
+          <option value="price-desc">Harga Tertinggi</option>
+          <option value="year-desc">Tahun Terbaru</option>
+        </select>
+        <button id="download-csv" class="flex items-center gap-1.5 bg-emerald-600 hover:bg-emerald-700 text-white text-sm font-medium px-4 py-2 rounded-xl transition shadow-sm whitespace-nowrap">
+          <i data-lucide="download" class="w-4 h-4"></i> Unduh CSV
+        </button>
+      </div>
+    </div>
+
+    <!-- Statistik Ringkas -->
+    <div class="flex justify-between items-center mb-4 px-1">
+      <span id="counter" class="text-sm font-medium text-slate-500">Menampilkan 0 unit</span>
+    </div>
+
+    <!-- Grid Kartu Mobil -->
+    <div id="grid-container" class="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+      <!-- Kartu-kartu mobil akan dimasukkan ke sini oleh JavaScript -->
+    </div>
+
+    <!-- Pesan Kosong / Loading -->
+    <div id="empty-state" class="hidden text-center py-16">
+      <i data-lucide="search-x" class="w-12 h-12 mx-auto text-slate-400 mb-2"></i>
+      <p class="text-slate-600 font-medium">Tidak ada unit kendaraan yang cocok.</p>
+    </div>
+  </main>
+
+  <!-- Footer -->
+  <footer class="bg-white border-t border-slate-200 py-6 mt-12 text-center text-xs text-slate-500">
+    Pemantau Lelang Kendaraan • Diperbarui otomatis oleh GitHub Actions
+  </footer>
+
+  <!-- Script Logika & Rendering Web -->
+  <script>
+    let allData = [];
+
+    // Format Rupiah
+    function formatRupiah(numStr) {
+      if (!numStr || numStr === "0" || numStr === "-") return "Rp -";
+      return "Rp " + numStr;
+    }
+
+    // Ambil Data JSON
+    async function loadData() {
+      try {
+        const response = await fetch('data.json?t=' + new Date().getTime());
+        if (!response.ok) throw new Error('Data belum ditemukan.');
+        allData = await response.json();
+        
+        document.getElementById('last-update').innerHTML = `<i data-lucide="check-circle" class="w-3.5 h-3.5 inline mr-1 text-emerald-400"></i> ${allData.length} Unit Tersedia`;
+        renderGrid(allData);
+      } catch (err) {
+        document.getElementById('last-update').innerText = "Belum ada file data.json";
+        document.getElementById('grid-container').innerHTML = `
+          <div class="col-span-full text-center py-12 bg-white rounded-2xl border border-dashed border-slate-300">
+            <p class="text-slate-600 font-medium">Data lelang sedang disiapkan oleh GitHub Actions.</p>
+            <p class="text-xs text-slate-400 mt-1">Jalankan workflow scraper pertama kali untuk membuat data.</p>
+          </div>
+        `;
+      }
+      lucide.createIcons();
+    }
+
+    // Render Grid Kartu Kendaraan
+    function renderGrid(data) {
+      const container = document.getElementById('grid-container');
+      const emptyState = document.getElementById('empty-state');
+      const counter = document.getElementById('counter');
+
+      container.innerHTML = '';
+      counter.innerText = `Menampilkan ${data.length} unit kendaraan`;
+
+      if (data.length === 0) {
+        emptyState.classList.remove('hidden');
+        return;
+      }
+      emptyState.classList.add('hidden');
+
+      data.forEach(item => {
+        const hasPhoto = item['Link Foto'] && item['Link Foto'].startsWith('http');
+        const photoSrc = hasPhoto ? item['Link Foto'] : 'https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60';
+        
+        const card = document.createElement('div');
+        card.className = "bg-white rounded-2xl border border-slate-200 overflow-hidden shadow-sm hover:shadow-md transition flex flex-col";
+        card.innerHTML = `
+          <!-- Gambar Mobil -->
+          <div class="relative h-48 bg-slate-100 overflow-hidden group">
+            <img src="${photoSrc}" alt="${item['Nama / Unit Kendaraan']}" 
+                 class="w-full h-full object-cover group-hover:scale-105 transition duration-300"
+                 onerror="this.src='https://images.unsplash.com/photo-1549399542-7e3f8b79c341?w=500&auto=format&fit=crop&q=60'">
+            <span class="absolute top-3 left-3 bg-blue-900/90 text-white font-semibold text-xs px-2.5 py-1 rounded-lg backdrop-blur-sm">
+              ${item['Tahun Pembuatan'] !== '-' ? 'Thn ' + item['Tahun Pembuatan'] : 'Tahun -'}
+            </span>
+            <span class="absolute top-3 right-3 bg-slate-900/80 text-white font-mono text-xs px-2.5 py-1 rounded-lg backdrop-blur-sm">
+              ${item['Nomor Polisi'] !== '-' ? item['Nomor Polisi'] : 'Plat -'}
+            </span>
+          </div>
+
+          <!-- Rincian Kendaraan -->
+          <div class="p-5 flex-1 flex flex-col justify-between">
+            <div>
+              <div class="flex items-center gap-1.5 text-xs text-slate-500 mb-1.5 font-medium">
+                <i data-lucide="map-pin" class="w-3.5 h-3.5 text-rose-500"></i>
+                <span class="truncate">${item['KPKNL Penyelenggara'] || '-'}</span>
+              </div>
+              <h2 class="font-bold text-slate-800 text-sm leading-snug line-clamp-2 mb-3" title="${item['Nama / Unit Kendaraan']}">
+                ${item['Nama / Unit Kendaraan']}
+              </h2>
+
+              <!-- Spesifikasi Rinci: No Rangka & Warna -->
+              <div class="bg-slate-50 p-2.5 rounded-xl border border-slate-100 text-xs text-slate-600 mb-4 space-y-1">
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Nomor Rangka:</span>
+                  <span class="font-mono font-medium text-slate-800 truncate max-w-[150px]">${item['Nomor Rangka'] || '-'}</span>
+                </div>
+                <div class="flex justify-between">
+                  <span class="text-slate-400">Warna:</span>
+                  <span class="font-medium text-slate-800">${item['Warna'] || '-'}</span>
+                </div>
+              </div>
+            </div>
+
+            <!-- Harga & Tombol Web Lelang -->
+            <div class="pt-3 border-t border-slate-100 flex items-center justify-between mt-auto">
+              <div>
+                <span class="text-[11px] text-slate-400 block font-medium">Nilai Limit</span>
+                <span class="text-base font-bold text-blue-700">${formatRupiah(item['Nilai Limit (Rp)'])}</span>
+              </div>
+              <a href="${item['Link Katalog']}" target="_blank" 
+                 class="inline-flex items-center gap-1.5 bg-blue-600 hover:bg-blue-700 text-white text-xs font-semibold px-3.5 py-2 rounded-xl transition shadow-sm">
+                Lihat Lot <i data-lucide="external-link" class="w-3.5 h-3.5"></i>
+              </a>
+            </div>
+          </div>
+        `;
+        container.appendChild(card);
+      });
+
+      lucide.createIcons();
+    }
+
+    // Filter Pencarian Interaktif
+    document.getElementById('search-box').addEventListener('input', (e) => {
+      const q = e.target.value.toLowerCase();
+      const filtered = allData.filter(d => 
+        (d['Nama / Unit Kendaraan'] && d['Nama / Unit Kendaraan'].toLowerCase().includes(q)) ||
+        (d['Nomor Polisi'] && d['Nomor Polisi'].toLowerCase().includes(q)) ||
+        (d['Nomor Rangka'] && d['Nomor Rangka'].toLowerCase().includes(q)) ||
+        (d['KPKNL Penyelenggara'] && d['KPKNL Penyelenggara'].toLowerCase().includes(q))
+      );
+      renderGrid(filtered);
+    });
+
+    // Urutkan Data
+    document.getElementById('sort-select').addEventListener('change', (e) => {
+      let sorted = [...allData];
+      const val = e.target.value;
+      const parseNum = (str) => parseInt(String(str || '0').replace(/[^0-9]/g, '')) || 0;
+
+      if (val === 'price-asc') sorted.sort((a, b) => parseNum(a['Nilai Limit (Rp)']) - parseNum(b['Nilai Limit (Rp)']));
+      if (val === 'price-desc') sorted.sort((a, b) => parseNum(b['Nilai Limit (Rp)']) - parseNum(a['Nilai Limit (Rp)']));
+      if (val === 'year-desc') sorted.sort((a, b) => parseNum(b['Tahun Pembuatan']) - parseNum(a['Tahun Pembuatan']));
+
+      renderGrid(sorted);
+    });
+
+    // Tombol Download CSV
+    document.getElementById('download-csv').addEventListener('click', () => {
+      window.open('hasil_lelang_mobil.csv', '_blank');
+    });
+
+    loadData();
+  </script>
+</body>
+</html>
