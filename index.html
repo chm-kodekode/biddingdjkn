@@ -10,7 +10,7 @@
 </head>
 <body class="bg-slate-100 text-slate-800 font-sans min-h-screen flex flex-col">
 
-  <!-- Header / Navbar Penuh -->
+  <!-- Header / Navbar -->
   <header class="bg-gradient-to-r from-blue-900 to-indigo-800 text-white shadow-md sticky top-0 z-30">
     <div class="w-full px-4 sm:px-6 py-2.5 flex flex-col sm:flex-row justify-between items-center gap-2">
       <div class="flex items-center gap-2.5">
@@ -20,8 +20,16 @@
           <p class="text-[11px] text-blue-200">Data otomatis dari portal resmi lelang.go.id</p>
         </div>
       </div>
-      <div id="last-update" class="text-xs bg-white/10 px-3 py-1 rounded-full border border-white/20">
-        Memuat data...
+      
+      <!-- Status Unit & Waktu Terakhir Update -->
+      <div class="flex items-center gap-2">
+        <div id="last-update" class="text-xs bg-white/10 px-3 py-1 rounded-full border border-white/20">
+          Memuat data...
+        </div>
+        <div id="timestamp-update" class="text-xs bg-blue-950/60 text-blue-200 px-3 py-1 rounded-full border border-white/10 flex items-center gap-1.5">
+          <i data-lucide="clock" class="w-3.5 h-3.5 text-blue-300"></i>
+          <span id="time-text">Diperbarui: -</span>
+        </div>
       </div>
     </div>
   </header>
@@ -73,10 +81,10 @@
     <!-- Statistik Ringkas -->
     <div class="flex justify-between items-center mb-1.5 px-1">
       <span id="counter" class="text-[11px] font-semibold text-slate-500 uppercase tracking-wider">Menampilkan 0 unit</span>
-      <span class="text-[11px] text-slate-400 italic hidden sm:inline">*Klik gambar untuk zoom foto</span>
+      <span class="text-[11px] text-slate-400 italic hidden sm:inline">*Klik nama kendaraan untuk buka halaman lelang | Klik foto untuk zoom</span>
     </div>
 
-    <!-- Container Tabel Data Pas 1 Layar (table-fixed) -->
+    <!-- Container Tabel Data Pas 1 Layar (Total 100% Width) -->
     <div class="bg-white rounded-xl shadow-xs border border-slate-200 overflow-hidden w-full">
       <div class="max-h-[75vh] overflow-y-auto relative w-full">
         <table class="w-full table-fixed text-left text-xs border-collapse">
@@ -84,15 +92,15 @@
             <tr>
               <th class="py-2 px-1 text-center w-[3%] bg-slate-50">No</th>
               <th class="py-2 px-1 text-center w-[5%] bg-slate-50">Foto</th>
-              <th class="py-2 px-2 w-[26%] bg-slate-50">Nama / Unit Kendaraan</th>
+              <th class="py-2 px-2 w-[25%] bg-slate-50">Nama / Unit Kendaraan</th>
               <th class="py-2 px-1 text-center w-[5%] bg-slate-50">Tahun</th>
               <th class="py-2 px-1.5 text-center w-[8%] bg-slate-50">No. Polisi</th>
-              <th class="py-2 px-1.5 text-center w-[7%] bg-slate-50">Warna</th>
-              <th class="py-2 px-1.5 text-center w-[14%] bg-slate-50">Nomor Rangka</th>
-              <th class="py-2 px-2 text-right w-[11%] bg-slate-50">Nilai Limit</th>
-              <th class="py-2 px-1.5 w-[10%] bg-slate-50">KPKNL</th>
+              <th class="py-2 px-1.5 text-center w-[6%] bg-slate-50">Warna</th>
+              <th class="py-2 px-1.5 text-center w-[13%] bg-slate-50">Nomor Rangka</th>
+              <th class="py-2 px-2 text-right w-[10%] bg-slate-50">Nilai Limit</th>
+              <th class="py-2 px-2 text-right w-[9%] bg-slate-50">Uang Jaminan</th>
+              <th class="py-2 px-1.5 w-[9%] bg-slate-50">KPKNL</th>
               <th class="py-2 px-1 text-center w-[7%] bg-slate-50">Batas Waktu</th>
-              <th class="py-2 px-1 text-center w-[4%] bg-slate-50">Aksi</th>
             </tr>
           </thead>
           <tbody id="table-body" class="divide-y divide-slate-100 text-slate-700">
@@ -176,14 +184,13 @@
       return "Rp " + numStr;
     }
 
-    // Format tanggal padat 2 baris agar kolom batas waktu hemat ruang
     function formatDeadlineCompact(dateStr) {
       if (!dateStr || dateStr === "-") return "-";
       const m = dateStr.match(/([0-9]{1,2})\s+([a-zA-Z]+)\s+([0-9]{4})(?:[\s,]+([0-9]{1,2}[:.][0-9]{2}(?:\s*(?:WIB|WITA|WIT))?))?/i);
       if (m) {
         const d = m[1];
         const mon = m[2].substring(0, 3);
-        const y = m[3].substring(2); // Ambil 2 digit tahun terakhir (misal: 26)
+        const y = m[3].substring(2);
         const t = m[4] || "";
         return `<div><span class="font-semibold text-slate-700">${d} ${mon} '${y}</span>${t ? `<div class="text-[10px] text-slate-400 font-mono">${t}</div>` : ''}</div>`;
       }
@@ -210,13 +217,24 @@
       try {
         const response = await fetch('data.json?t=' + new Date().getTime());
         if (!response.ok) throw new Error('Data belum ditemukan.');
-        allData = await response.json();
+        const rawData = await response.json();
         
+        let lastUpdatedText = "-";
+        if (Array.isArray(rawData)) {
+          allData = rawData;
+        } else {
+          allData = rawData.items || [];
+          lastUpdatedText = rawData.last_updated || "-";
+        }
+
         const activeCount = allData.filter(d => !isItemExpired(d)).length;
         document.getElementById('last-update').innerHTML = `<i data-lucide="check-circle" class="w-3.5 h-3.5 inline mr-1 text-emerald-400"></i> ${activeCount} Aktif / ${allData.length} Total`;
+        document.getElementById('time-text').innerText = `Diperbarui: ${lastUpdatedText}`;
+
         applyAllFilters();
       } catch (err) {
         document.getElementById('last-update').innerText = "Belum ada file data.json";
+        document.getElementById('time-text').innerText = "Diperbarui: -";
         document.getElementById('table-body').innerHTML = `
           <tr>
             <td colspan="11" class="text-center py-10 text-slate-500">
@@ -284,6 +302,17 @@
           ? "bg-slate-100/70 text-slate-400 opacity-60 border-b border-slate-200 transition-colors" 
           : "hover:bg-blue-50/50 transition-colors border-b border-slate-100";
 
+        const namaContent = expired 
+          ? `<span class="line-clamp-2 font-medium text-slate-400 line-through decoration-slate-400 cursor-not-allowed" title="${item['Nama / Unit Kendaraan'] || '-'}">
+               ${item['Nama / Unit Kendaraan'] || '-'}
+             </span>
+             <span class="inline-block mt-0.5 bg-rose-100 text-rose-700 text-[9px] font-bold px-1 py-0.5 rounded no-underline">DITUTUP</span>`
+          : `<a href="${item['Link Katalog']}" target="_blank" rel="noopener noreferrer" 
+                class="line-clamp-2 font-semibold text-blue-700 hover:text-blue-900 hover:underline transition" 
+                title="${item['Nama / Unit Kendaraan'] || '-'} (Klik untuk buka lot lelang)">
+               ${item['Nama / Unit Kendaraan'] || '-'}
+             </a>`;
+
         row.innerHTML = `
           <!-- No -->
           <td class="py-2 px-1 text-center font-mono text-[11px] text-slate-400 truncate">${item['No'] || (index + 1)}</td>
@@ -297,13 +326,9 @@
             </div>
           </td>
 
-          <!-- Nama / Unit Kendaraan (Max 2 baris) -->
+          <!-- Nama / Unit Kendaraan -->
           <td class="py-2 px-2 leading-tight">
-            <span class="line-clamp-2 font-medium ${expired ? 'text-slate-500 line-through decoration-slate-400' : 'text-slate-800 hover:text-blue-700'} transition cursor-pointer" 
-                  title="${item['Nama / Unit Kendaraan'] || '-'}">
-              ${item['Nama / Unit Kendaraan'] || '-'}
-            </span>
-            ${expired ? '<span class="inline-block mt-0.5 bg-rose-100 text-rose-700 text-[9px] font-bold px-1 py-0.5 rounded no-underline">DITUTUP</span>' : ''}
+            ${namaContent}
           </td>
 
           <!-- Tahun -->
@@ -333,6 +358,11 @@
             ${formatRupiah(item['Nilai Limit (Rp)'])}
           </td>
 
+          <!-- Uang Jaminan -->
+          <td class="py-2 px-2 text-right font-semibold text-xs ${expired ? 'text-slate-400' : 'text-amber-700'} whitespace-nowrap">
+            ${formatRupiah(item['Uang Jaminan (Rp)'])}
+          </td>
+
           <!-- KPKNL -->
           <td class="py-2 px-1.5 text-[11px] whitespace-nowrap">
             <span class="truncate block" title="${item['KPKNL Penyelenggara'] || '-'}">
@@ -343,17 +373,6 @@
           <!-- Batas Waktu Kompak -->
           <td class="py-2 px-1 text-center text-[11px] leading-tight whitespace-nowrap">
             ${formatDeadlineCompact(item['Batas Penawaran'])}
-          </td>
-
-          <!-- Tombol Aksi -->
-          <td class="py-2 px-1 text-center">
-            ${expired 
-              ? `<span class="inline-block bg-slate-200 text-slate-400 text-[10px] font-medium px-1.5 py-1 rounded cursor-not-allowed select-none">Tutup</span>`
-              : `<a href="${item['Link Katalog']}" target="_blank" 
-                    class="inline-block bg-blue-600 hover:bg-blue-700 text-white text-[10px] font-semibold px-2 py-1 rounded transition shadow-2xs">
-                   Lot
-                 </a>`
-            }
           </td>
         `;
 

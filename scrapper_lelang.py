@@ -1,4 +1,5 @@
 import csv
+from datetime import datetime
 import json
 import os
 import re
@@ -27,10 +28,12 @@ BULAN_INDO = {
 }
 
 def load_existing_database():
+    """Membaca data lama, kompatibel dengan format array maupun objek dengan timestamp."""
     if os.path.exists(DATA_JSON_PATH):
         try:
             with open(DATA_JSON_PATH, "r", encoding="utf-8") as f:
-                items = json.load(f)
+                content = json.load(f)
+                items = content.get("items", content) if isinstance(content, dict) else content
                 return {str(item.get("ID_Lot")): item for item in items if item.get("ID_Lot")}
         except Exception:
             return {}
@@ -115,7 +118,7 @@ def parse_specs_from_text(text):
 
     # Nopol
     nopol = "-"
-    m_pol = re.search(r'(?:nomor\s*polisi|no\.?\s*polisi|nopol|plat(?:\s*nomor)?)\s*[:\s\-]*([a-zA-Z]{1,2}\s*\d{1,4}\s*[a-zA-Z]{1,3})', text_clean, re.I)
+    m_pol = re.search(r'(?:nomor\s*polisi|no\.?\s*polisi|nopol|plat(?:\s*nomor)?)[\s:\-]*([a-zA-Z]{1,2}\s*\d{1,4}\s*[a-zA-Z]{1,3})', text_clean, re.I)
     if m_pol:
         nopol = re.sub(r'\s+', ' ', m_pol.group(1)).strip().upper()
     else:
@@ -126,7 +129,7 @@ def parse_specs_from_text(text):
 
     # Tahun
     tahun = "-"
-    m_thn = re.search(r'(?:tahun(?:\s*pembuatan|\s*rakit)?|thn\.?|th\.)\s*[:\s\-]*\b(19[89]\d|20[0-2]\d)\b', text_clean, re.I)
+    m_thn = re.search(r'(?:tahun(?:\s*pembuatan|\s*rakit)?|thn\.?|th\.)[\s:\-]*\b(19[89]\d|20[0-2]\d)\b', text_clean, re.I)
     if m_thn:
         tahun = m_thn.group(1)
     else:
@@ -137,13 +140,13 @@ def parse_specs_from_text(text):
 
     # Warna
     warna = "-"
-    m_warna = re.search(r'(?:warna)\s*[:\s\-]*([a-zA-Z\s]{3,25})', text_clean, re.I)
+    m_warna = re.search(r'(?:warna)[\s:\-]*([a-zA-Z\s]{3,25})', text_clean, re.I)
     if m_warna:
         warna = re.sub(r'\s+', ' ', m_warna.group(1).split("\n")[0].strip().upper())
 
     # Nomor Rangka
     norangka = "-"
-    m_rangka = re.search(r'(?:nomor\s*rangka|no\.?\s*rangka|norangka|noka|no\.?\s*chasis|vin)\s*[:\s\-]*([a-zA-Z0-9]{8,25})', text_clean, re.I)
+    m_rangka = re.search(r'(?:nomor\s*rangka|no\.?\s*rangka|norangka|noka|no\.?\s*chasis|vin)[\s:\-]*([a-zA-Z0-9]{8,25})', text_clean, re.I)
     if m_rangka:
         norangka = m_rangka.group(1).strip().upper()
     else:
@@ -306,8 +309,16 @@ def main():
         data["No"] = idx
         final_results.append(data)
 
+    # Catat tanggal dan jam fetch data
+    now_str = datetime.now().strftime("%d %b %Y, %H:%M WIB")
+
+    payload = {
+        "last_updated": now_str,
+        "items": final_results
+    }
+
     with open(DATA_JSON_PATH, "w", encoding="utf-8") as f:
-        json.dump(final_results, f, ensure_ascii=False, indent=2)
+        json.dump(payload, f, ensure_ascii=False, indent=2)
 
     with open(DATA_CSV_PATH, "w", newline="", encoding="utf-8") as f:
         writer = csv.DictWriter(f, fieldnames=list(final_results[0].keys()))
@@ -316,7 +327,8 @@ def main():
 
     aktif_count = sum(1 for d in final_results if d.get("Status") == "aktif")
     selesai_count = sum(1 for d in final_results if d.get("Status") == "selesai")
-    print(f"\n[OK] Selesai! Total database: {len(final_results)} unit ({aktif_count} Aktif, {selesai_count} Selesai/Kedaluwarsa).")
+    print(f"\n[OK] Selesai pada {now_str}!")
+    print(f"[OK] Total database: {len(final_results)} unit ({aktif_count} Aktif, {selesai_count} Selesai/Kedaluwarsa).")
 
 if __name__ == "__main__":
     main()
