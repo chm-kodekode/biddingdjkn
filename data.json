@@ -1,5 +1,5 @@
 {
-  "last_updated": "22 Oct 2026, 15:30 WIB",
+  "last_updated": "26 Oct 2026, 06:23 WIB",
   "items": [
     {
       "ID_Lot": "6e40e26a-0d69-4adb-b68d-134c59859ae8",
@@ -5149,7 +5149,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta III",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/19/foto-3-6a856625ee2b3642871479.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/72361fdf-ccd9-4a2d-bd22-22cd76138a40",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 303
     },
     {
@@ -5166,7 +5166,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta III",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/07/foto-1-6a85661d94fcd961191712-6a9e43cb2f049145632254.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/343be754-e3df-4f64-ac29-42807fbe2dc5",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 304
     },
     {
@@ -5183,7 +5183,7 @@
       "KPKNL Penyelenggara": "KPKNL Bogor",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/05/whatsapp-image-2026-08-26-at-14-20-16-1-6ac30a92e1400632714003.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7d02a321-03e4-44e7-9031-360f5a3077cc",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 305
     },
     {
@@ -5200,7 +5200,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta IV",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/venturer-4-6ac5fc8f955ca563135539.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053e2a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/14beb54a-9f86-4c81-a659-6a5c6537a08b",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 306
     },
     {
@@ -5217,7 +5217,7 @@
       "KPKNL Penyelenggara": "KPKNL Surabaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/depan-kanan-6abcdb6fd9352629733633.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/29e3fa24-e91a-48fc-bf98-6ee70ff19e6b",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 307
     },
     {
@@ -5234,7 +5234,7 @@
       "KPKNL Penyelenggara": "KPKNL Surabaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/belakang-kanan-6abcdab363d7b997974129.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3112c91f-a28c-4a0e-a89e-2d46f63a577d",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 308
     },
     {
@@ -5251,7 +5251,7 @@
       "KPKNL Penyelenggara": "KPKNL Surabaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/depan-6abcdb9d70197724677980.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2847c45a-da72-4075-9b73-7b8d2332eb65",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 309
     },
     {
@@ -5268,7 +5268,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/02/whatsapp-image-2026-09-01-at-14-58-03-2-6abf2b72168b2859014793.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a29c193b-4404-4bb6-b681-fcd4af840bfd",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 310
     },
     {
@@ -5285,7 +5285,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/02/whatsapp-image-2026-09-03-at-10-05-37-6abf2b1f4318e289780614.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cf747634-1dd0-4242-b21a-c05e05e0c8cc",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 311
     },
     {
@@ -5302,7 +5302,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-2-18-56-pm-6abcb87f9eb31804602298.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/38163705-c9e0-4f11-ada7-0638944884d8",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 312
     },
     {
@@ -5319,7 +5319,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-2-31-34-pm-6abcbd6f4ce76856673168.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f2389535-39ca-455c-a765-18b0a9c437ee",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 313
     },
     {
@@ -5336,7 +5336,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/21/whatsapp-image-2026-09-21-at-10-41-02-am-6ab111f342abd502145172.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8c5e7221-8351-4c8a-b0cf-a0c7073fe009",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 314
     },
     {
@@ -5353,7 +5353,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/21/whatsapp-image-2026-09-21-at-6-10-23-pm-6ab11112414d0678947283.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/16f62a3b-917b-4b00-9b6b-ead2b7804a85",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 315
     },
     {
@@ -5370,7 +5370,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/07/21/ab-1836-h-belakang-6a5f37839fd1a914612319.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/92d37340-590c-47c1-90c9-1c24e700e77a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 316
     },
     {
@@ -5387,7 +5387,7 @@
       "KPKNL Penyelenggara": "KPKNL Medan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/07/barang-lelang-6a9e40a146a56389034170.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67052142-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/189726ab-79d1-44a5-a317-d441a1bf5bd2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 317
     },
     {
@@ -5404,7 +5404,7 @@
       "KPKNL Penyelenggara": "KPKNL Bengkulu",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-07-14-at-13-08-53-6aacb1a7d1787789878354.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670531f0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/65ed3462-7eab-4930-b9d7-10663b59c05f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 318
     },
     {
@@ -5421,7 +5421,7 @@
       "KPKNL Penyelenggara": "KPKNL Bengkulu",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/17/whatsapp-image-2026-07-14-at-13-07-00-6aaba9821d126159041813.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670531f0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b58ba0cb-9b06-4f72-b639-9eddc695920a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 319
     },
     {
@@ -5438,7 +5438,7 @@
       "KPKNL Penyelenggara": "KPKNL Bengkulu",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/17/whatsapp-image-2025-12-10-at-16-39-22-2-6aabb21e01be0177269347.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670531f0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0130ba4d-1307-4192-a574-2c87041af5a9",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 320
     },
     {
@@ -5455,7 +5455,7 @@
       "KPKNL Penyelenggara": "KPKNL Denpasar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/15/01-kbh-6a1ebc50eea4f821362359-6aa916342bb9f468626276.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706189a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9abe6bd9-35c9-4119-91a4-798971663b3f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 321
     },
     {
@@ -5472,7 +5472,7 @@
       "KPKNL Penyelenggara": "KPKNL Denpasar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/15/tb1-69fd9dbd58002059410025-6aa8f99ba0695169055584.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706189a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/733c219b-4ffc-4cd7-8dfa-82a9b2b8e17f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 322
     },
     {
@@ -5489,7 +5489,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta V",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/09/screenshot-2026-07-13-135356-6aa0c840461ab157117717.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67053fce-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a54d47fb-57aa-47db-bb6d-bed63e3e4312",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 323
     },
     {
@@ -5506,7 +5506,7 @@
       "KPKNL Penyelenggara": "KPKNL Batam",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/foto-mobil-1-6ac60e4c7bcd9829330620.png",
       "Link Katalog": "https://lelang.go.id/kpknl/670529d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9a89d3e3-e42b-45f0-a5ad-10934a4cea3c",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 324
     },
     {
@@ -6475,7 +6475,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-47-1-6abddd7e01b79792609765.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cebd3efc-0fcc-4804-bacd-5968277b6863",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 381
     },
     {
@@ -6509,7 +6509,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-45-6abdf470150d1855071902.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a8ea5238-29e9-438a-a552-c40337b8a35a",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 383
     },
     {
@@ -6526,7 +6526,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-45-1-6abdf6bc3716e261290691.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6e7afa39-07cf-4c3a-b312-7d9646e3ea58",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 384
     },
     {
@@ -6560,7 +6560,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-43-3-6abddff813e26574513002.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3ff6a1a5-6be3-43c3-89e3-625ab868cd18",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 386
     },
     {
@@ -6577,7 +6577,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-34-1-6abdfa14126c0189543783.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/12447216-bcdd-409a-8bdf-586366dbbda3",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 387
     },
     {
@@ -6594,7 +6594,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-41-2-6abdf7d0772bd634500598.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9c5a7291-25ca-4730-bc54-480b9972be07",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 388
     },
     {
@@ -6611,7 +6611,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-21-at-08-55-41-6abdf09de7faa030783183.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1de513ea-96c8-4b01-adab-4e6746434dc2",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 389
     },
     {
@@ -6628,7 +6628,7 @@
       "KPKNL Penyelenggara": "KPKNL Semarang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/13/whatsapp-image-2026-08-13-at-14-09-38-6a7daf1291d2f010588616.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ec62-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/36fe976f-61f2-458f-93ec-55c37cd5f185",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 390
     },
     {
@@ -6798,7 +6798,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-02-03-29-6ab34cb7b8fee793327377.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/257982d3-9d69-4b2f-90d1-de7a94d845ee",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 400
     },
     {
@@ -6815,7 +6815,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-01-56-55-6ab348bc5316e272659732.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b3fa0af9-4aff-468d-ba9c-49e7de99676f",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 401
     },
     {
@@ -6832,7 +6832,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-02-03-23-6ab34a587370e103687521.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8656f23b-e9c3-48f1-8f7c-0a2c5201e3f2",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 402
     },
     {
@@ -6849,7 +6849,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-09-21-at-15-31-44-6ab36213e0c41881849145.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d27b2b02-63b3-4ea5-abb2-8c1283209cc5",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 403
     },
     {
@@ -6866,7 +6866,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-09-21-at-15-31-17-6ab34df0bd7f4683789095.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5cc520c8-037a-4875-b5b1-af99c27da61e",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 404
     },
     {
@@ -6883,7 +6883,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-02-03-20-6ab346b73fc7d480188139.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0d87da20-2025-4a7c-9df9-fd8fda3fe5bc",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 405
     },
     {
@@ -6900,7 +6900,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-09-22-at-16-45-59-1-6ab3457245d74466865687.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1b93d33a-f1d8-4b08-84ab-c8fa9d223a3e",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 406
     },
     {
@@ -6917,7 +6917,7 @@
       "KPKNL Penyelenggara": "KPKNL Bekasi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/yn-6-6acc7e090da14978623335.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ac0c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/13032af1-af4a-49e3-ba92-b8b5cf32f554",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 407
     },
     {
@@ -6951,7 +6951,7 @@
       "KPKNL Penyelenggara": "KPKNL Bekasi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/fkm-3-6acc61730e0a9196422640.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ac0c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1bd2602f-6df2-40d1-b9fd-6e7e30fe9855",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 409
     },
     {
@@ -6968,7 +6968,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-08-01-at-02-03-40-6ab2604a5ba94786276912.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/77ce44d2-2dc7-4f21-a634-631cd6c54e5b",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 410
     },
     {
@@ -6985,7 +6985,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-09-22-at-18-50-07-6ab25f2b9150e574603661.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ad69cd1d-1048-4468-8f74-2b116bfcc74c",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 411
     },
     {
@@ -7019,7 +7019,7 @@
       "KPKNL Penyelenggara": "KPKNL Jambi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-09-23-at-12-16-58-6ab378cb44da9648457925.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/41698ac7-ab68-43cf-9f35-767b4a325a85",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 413
     },
     {
@@ -7036,7 +7036,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/16-6ab237c7a3f34924309032.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/446a19c4-8e2a-425d-8145-c70549caf176",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 414
     },
     {
@@ -7087,7 +7087,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-08-01-at-02-03-44-6ab262a6a31f0681179842.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/14f6043e-ae1f-4c4e-8fc2-39a07a80f0f5",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 417
     },
     {
@@ -7104,7 +7104,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-09-22-at-12-34-19-1-6ab2352b1eb6d677445563.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/36f88338-1d11-474d-97ba-e1c6d11129c9",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 418
     },
     {
@@ -7121,7 +7121,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/whatsapp-image-2026-09-10-at-13-57-10-2-6ac450b5e5adb374251256.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/17435617-247f-48ae-9c9e-ff2f18ad9878",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 419
     },
     {
@@ -7138,7 +7138,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-02-03-38-6ab3d5adace33089344458.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/04556ead-5d6e-48c5-9b52-697805631c7f",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 420
     },
     {
@@ -7155,7 +7155,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-01-56-52-6ab3d712f1763712601826.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/fe975d75-a8c7-4cc4-b850-863680b0b03b",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 421
     },
     {
@@ -7172,7 +7172,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/1-6ab3c0b6ada3a268831111.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8722a247-4b88-4c3c-85ff-88d9c490c569",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 422
     },
     {
@@ -7189,7 +7189,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/2-6ab3c21e3d854037011676.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1680642f-9662-43e0-9bf1-a728072e2234",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 423
     },
     {
@@ -7206,7 +7206,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-08-01-at-02-03-35-6ab3d4a43e364513645539.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b281fcdb-0d0e-41a3-8a68-7277975f3637",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 424
     },
     {
@@ -7223,7 +7223,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/24/img-20260704-143342-173-6ab527d7b68d9462726940.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/163e0470-906c-4331-a390-d70d50423eb8",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 425
     },
     {
@@ -7240,7 +7240,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/whatsapp-image-2026-09-21-at-15-14-23-6ab3c312093c3745410103.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/875619e4-9611-4f5d-a507-8c02bbd29e30",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 426
     },
     {
@@ -7257,7 +7257,7 @@
       "KPKNL Penyelenggara": "KPKNL Padangsidimpuan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/21/whatsapp-image-2026-08-31-at-15-11-12-1-6ab0a2879de5b650111484.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670524e4-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/634d8452-c421-467c-9fff-ae5455d7956a",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 427
     },
     {
@@ -7274,7 +7274,7 @@
       "KPKNL Penyelenggara": "KPKNL Jambi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/334c03a2-b26f-4ae5-a03d-2ab9ce9bebdd-6acdbcc0cde21268273457.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cda18775-aa19-4371-9048-b1d78f0e7997",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 428
     },
     {
@@ -7291,7 +7291,7 @@
       "KPKNL Penyelenggara": "KPKNL Padangsidimpuan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/21/whatsapp-image-2026-09-01-at-15-54-00-6ab0a17d8a6fd468448259.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670524e4-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a5d36f14-b34c-49aa-9f9f-62793cad92cc",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 429
     },
     {
@@ -7308,7 +7308,7 @@
       "KPKNL Penyelenggara": "KPKNL Padangsidimpuan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-08-31-at-17-55-09-6aad2978d77e8239938594.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670524e4-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/18b9829d-8b56-4be1-abbb-1e0fab776e48",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 430
     },
     {
@@ -7325,7 +7325,7 @@
       "KPKNL Penyelenggara": "KPKNL Purwokerto",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/depan-6abdfd02d5937664173162.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f8d8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2c7dca22-06d6-4d3c-b70f-ec2196f143d3",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 431
     },
     {
@@ -7342,7 +7342,7 @@
       "KPKNL Penyelenggara": "KPKNL Padangsidimpuan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-07-16-at-22-00-29-2-6aad0414d53dd491377153.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670524e4-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7615c1d0-88af-4707-bf6a-e236d46c54db",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 432
     },
     {
@@ -7376,7 +7376,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/avanza-hitam-1-6abd008233577498435689.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/bb87997c-835f-43bd-8bd4-144d8551f7ff",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 434
     },
     {
@@ -7393,7 +7393,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/avanza-hijau-1-6abccec2c4fd3111209889.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2be906df-070c-4ba7-b586-bbd5b4cc8382",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 435
     },
     {
@@ -7410,7 +7410,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/29/altis-2-6abbb2267c502222434630.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/50b3f3ac-53ec-4610-831e-94fe63bf665f",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 436
     },
     {
@@ -7427,7 +7427,7 @@
       "KPKNL Penyelenggara": "KPKNL Surabaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/3-l-1009-yp-1-6acc9b38411a9308756766.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9a74c4c6-b125-4188-8801-b1dd0e22bd05",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 437
     },
     {
@@ -7444,7 +7444,7 @@
       "KPKNL Penyelenggara": "KPKNL Surabaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/2-l-1341-cp-5-6acc9ae8613a5202193413.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7b4008a0-a024-42be-906f-920df99b9bb7",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 438
     },
     {
@@ -7461,7 +7461,7 @@
       "KPKNL Penyelenggara": "KPKNL Bogor",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/foto-depanorlando-6aacae39e2a92619431980.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0573b28c-5eee-42d3-9d71-2b389dee0fb0",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 439
     },
     {
@@ -7478,7 +7478,7 @@
       "KPKNL Penyelenggara": "KPKNL Pamekasan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/02/whatsapp-image-2026-09-18-at-12-35-35-6abf3c1b263d8903823443.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67060968-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f3c1fb95-3168-4e2d-98b1-5d02a4fb3fee",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 440
     },
     {
@@ -7495,7 +7495,7 @@
       "KPKNL Penyelenggara": "KPKNL Pamekasan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/02/whatsapp-image-2026-09-16-at-11-08-42-1-6abf39b323470133229264.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67060968-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a4128a70-fd9e-4bfe-b16a-6747ce60d462",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 441
     },
     {
@@ -7512,7 +7512,7 @@
       "KPKNL Penyelenggara": "KPKNL Pamekasan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/02/whatsapp-image-2026-09-16-at-10-53-16-6abf3e71bd881864113240.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67060968-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/daa7d28a-8202-4682-8d02-ffd3cdad50be",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 442
     },
     {
@@ -7529,7 +7529,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/25/whatsapp-image-2026-05-07-at-8-44-24-am-6ab615e96d3f8381959051.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/df86d970-1afb-4df9-af79-c737d037c031",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 443
     },
     {
@@ -7546,7 +7546,7 @@
       "KPKNL Penyelenggara": "KPKNL Ternate",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/foto-1-6ab9cc9130e72914889145.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706286c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/c89e7ea2-0f80-4be5-87f1-cd7c8a000beb",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 444
     },
     {
@@ -7563,7 +7563,7 @@
       "KPKNL Penyelenggara": "KPKNL Metro",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/whatsapp-image-2026-06-04-at-10-10-10-6acda713f23e5083686988.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670532cc-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b6bee0b6-6e25-4d96-92ec-258641303a68",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 445
     },
     {
@@ -7580,7 +7580,7 @@
       "KPKNL Penyelenggara": "KPKNL Metro",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/whatsapp-image-2026-06-04-at-10-08-54-6acdaa3d6107c484158219.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670532cc-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/05cf7a7f-82a8-4877-a401-8180addbdae2",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 446
     },
     {
@@ -7597,7 +7597,7 @@
       "KPKNL Penyelenggara": "KPKNL Bogor",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/16/2a-f-1224-a-6aa9f749a1367488600933.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3fe90bed-e59b-4b87-aa86-51dd1247fb0c",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 447
     },
     {
@@ -7614,7 +7614,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta II",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/b-1186-sqa-a-6abcbb0bb362c612194520.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67053a38-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f5f98bdd-6406-4303-8b23-f29f586bd2fb",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 448
     },
     {
@@ -7631,7 +7631,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta I",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/whatsapp-image-2026-10-06-at-10-02-16-6ac47fed7572e735464858.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705389e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9f276610-d03c-4464-a290-e6f0ded63d48",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 449
     },
     {
@@ -7648,7 +7648,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta I",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/05/1-6ac30b6ebfb81357430465.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705389e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2d1cdd5e-7b15-4876-ad5b-f21e000cf3f1",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 450
     },
     {
@@ -7682,7 +7682,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/1392-depan-6acca6f632a46279400484.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0391aec1-ab45-497c-8420-6e1b8ca73d6f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 452
     },
     {
@@ -7699,7 +7699,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/1728-depan-6acca7811a42c898155877.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f5ad5845-fb12-45dd-bb99-9cf548ae4343",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 453
     },
     {
@@ -7716,7 +7716,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-07-23-at-08-01-54-6a7bdf1f20669391512914.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/da4a8f75-1ec4-4acf-bb60-4e12f8fb90fa",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 454
     },
     {
@@ -7733,7 +7733,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/13/whatsapp-image-2026-07-31-at-09-28-19-6a7d78b0d15b3961284561.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/c345aaa7-1352-40d5-8d86-c88332e63eec",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 455
     },
     {
@@ -7750,7 +7750,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-07-22-at-08-13-48-1-6a7be5ae05e5d547049024.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5599cbc4-86ff-4950-a8f8-5bc35b4bd502",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 456
     },
     {
@@ -7767,7 +7767,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/14/whatsapp-image-2026-08-14-at-12-13-20-6a7e9609701eb085432873.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/dec2bf98-31d4-45be-8215-dc11cceb0694",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 457
     },
     {
@@ -7784,7 +7784,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/11/whatsapp-image-2026-07-22-at-08-16-02-1-6a7ad117e5aed786761203.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7f9d5eac-1a55-4c29-8c4d-73f1420629fe",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 458
     },
     {
@@ -7801,7 +7801,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/07/whatsapp-image-2026-07-23-at-07-58-56-6a7547308c3cc625074395.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5ca902f6-431c-4cf5-93d1-0ed04b98c562",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 459
     },
     {
@@ -7818,7 +7818,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/14/whatsapp-image-2026-08-14-at-09-43-41-6a7e7967ad5d6916105830.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0c75e0e4-ac98-4b18-98f5-5add05762066",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 460
     },
     {
@@ -7835,7 +7835,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/14/whatsapp-image-2026-08-03-at-10-39-54-1-6a7e75dd460b4375952839.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a730ef54-5fc8-47c5-9e3c-e93d2d51930a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 461
     },
     {
@@ -7852,7 +7852,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/13/whatsapp-image-2026-07-21-at-11-03-34-6a7d6ba65c899265463955.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8afad044-1e11-46c8-afcb-88f1b107f248",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 462
     },
     {
@@ -7869,7 +7869,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/13/whatsapp-image-2026-07-21-at-10-55-47-2-6a7d1cf781699244298586.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/85be9e45-f856-4232-ae94-23ad7ccb729f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 463
     },
     {
@@ -7886,7 +7886,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-07-21-at-11-01-10-1-6a7c1e09c0f62921713365.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d0b8fd76-7d42-4350-b826-e1e431b154c9",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 464
     },
     {
@@ -7903,7 +7903,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-07-23-at-07-57-21-6a7bc7ea39ca5864297706.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/da48b7ba-294f-4ab6-a5a4-97dd3a91ef0c",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 465
     },
     {
@@ -7920,7 +7920,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-07-21-at-10-54-14-1-6a7befb911040928857861.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8478ee9a-74d6-46b0-a13d-a0a1dfd50157",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 466
     },
     {
@@ -7937,7 +7937,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/13/whatsapp-image-2026-07-21-at-11-08-06-1-6a7d7530863da938056316.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6e74da0b-2c3e-46e1-aee0-f7584836fe39",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 467
     },
     {
@@ -7954,7 +7954,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/11/whatsapp-image-2026-08-03-at-10-22-01-6a7a7469b7d9f416512434.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/e709d7fe-944a-4a2c-909a-5e87ce128b59",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 468
     },
     {
@@ -7971,7 +7971,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/18/whatsapp-image-2026-08-18-at-11-10-45-6a83cdeca2dea885525943.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cf022f5e-e1b4-4e2b-b2ce-1546e1f34510",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 469
     },
     {
@@ -7988,7 +7988,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/14/whatsapp-image-2026-08-14-at-11-26-38-6a7e8b44702de967841147.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/46e355cb-408d-4124-96d0-75595fad3278",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 470
     },
     {
@@ -8005,7 +8005,7 @@
       "KPKNL Penyelenggara": "KPKNL Gorontalo",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/11/tampak-depan-6aa35964f41c0209856536.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062376-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9e692c40-e374-46ad-8386-6b636fec3cba",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 471
     },
     {
@@ -8022,7 +8022,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta V",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/b1927gq-3-6ab9d336d3dd9915727994.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053fce-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5951f383-b686-4af8-8e3e-8743674b74e8",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 472
     },
     {
@@ -8056,7 +8056,7 @@
       "KPKNL Penyelenggara": "KPKNL Biak",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/1484-depan-6ab9cdc61122c041841672.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670632d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2893dbb2-896c-4fd9-8736-3c1c69d130fe",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 474
     },
     {
@@ -8073,7 +8073,7 @@
       "KPKNL Penyelenggara": "KPKNL Samarinda",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/a-6abcbaa5b4ed0098293757.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706153e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7d374e27-b1e7-447a-b5c5-6d42d15571fd",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 475
     },
     {
@@ -8090,7 +8090,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-10-18-20-1-6abc86e8f0eb2609143533.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/e3128006-ef1e-4bfc-988e-f460792dfafe",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 476
     },
     {
@@ -8107,7 +8107,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/img-20260623-131421-6abc809ab248f658081392.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/fefebd3e-9d0e-45fe-b465-62d698dcd6bb",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 477
     },
     {
@@ -8124,7 +8124,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-15-39-22-6abcbd91e68a6068594763.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7be5e51c-c19d-41f6-8827-8126202bbbf7",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 478
     },
     {
@@ -8141,7 +8141,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-10-22-44-1-6abc84700cb2b315653365.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/e156cea9-8394-428f-8db4-a950c49f7420",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 479
     },
     {
@@ -8158,7 +8158,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/30/whatsapp-image-2026-09-30-at-10-22-04-6abc7d149fca7587835854.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/947b4c4b-8ca0-4ed8-a25f-3ff220feeaf8",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 480
     },
     {
@@ -8175,7 +8175,7 @@
       "KPKNL Penyelenggara": "KPKNL Denpasar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/whatsapp-image-2026-03-06-at-9-45-05-am-6ac5eb3222f57237228678.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706189a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/40f63ccb-92c9-4a78-9ba3-2d1cad9259dd",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 481
     },
     {
@@ -8192,7 +8192,7 @@
       "KPKNL Penyelenggara": "KPKNL Surakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/19/photo-2026-08-19-16-43-12-2-6a857b394aaea782261202.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1cb561e7-f399-4e1f-846b-d903b7bf716c",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 482
     },
     {
@@ -8209,7 +8209,7 @@
       "KPKNL Penyelenggara": "KPKNL Cirebon",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/hilux-2-6ac70a49c8257790062904.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ea5a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2c29de70-09b0-4ef6-9f8c-85018ede72ab",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 483
     },
     {
@@ -8226,7 +8226,7 @@
       "KPKNL Penyelenggara": "KPKNL Surakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/19/photo-2026-08-19-16-43-19-2-6a857b21e4a4e898480891.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4c9b0372-9f3a-44e2-afbc-e9ef57229c75",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 484
     },
     {
@@ -8260,7 +8260,7 @@
       "KPKNL Penyelenggara": "KPKNL Pekanbaru",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/whatsapp-image-2026-09-21-at-14-23-26-1-6ac5e3a2793d3351580088.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705267e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5c577a54-64c0-4e46-8cb7-fb3831350812",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 486
     },
     {
@@ -8277,7 +8277,7 @@
       "KPKNL Penyelenggara": "KPKNL Pontianak",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/2-6acca378b46b2750580023.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67060e5e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3c4fb0e2-ab3f-4be8-93fb-8a6f6dae6216",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 487
     },
     {
@@ -8294,7 +8294,7 @@
       "KPKNL Penyelenggara": "KPKNL Pontianak",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/7-6acca329a36f0682113019.png",
       "Link Katalog": "https://lelang.go.id/kpknl/67060e5e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9310680a-06f9-4866-ba71-b01e79e67868",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 488
     },
     {
@@ -8311,7 +8311,7 @@
       "KPKNL Penyelenggara": "KPKNL Cirebon",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/14/whatsapp-image-2026-06-11-at-14-53-53-1-6acf1993e83d0875811911.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ea5a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3773bd2a-9103-40ae-bbe2-4d4a1d102302",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 489
     },
     {
@@ -8328,7 +8328,7 @@
       "KPKNL Penyelenggara": "KPKNL Tasikmalaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/foto-inova-1-6ac459d8eae77725836289.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705b7ba-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/bd5e05ba-45f4-4a0b-81dc-e0edb6373bdd",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 490
     },
     {
@@ -8345,7 +8345,7 @@
       "KPKNL Penyelenggara": "KPKNL Tasikmalaya",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/foto-tronton-2-6ac4592ea6ce4817861780.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705b7ba-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4487b65b-dc6b-44cc-b14e-fa0b573182b8",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 491
     },
     {
@@ -8362,7 +8362,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta III",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/31/apv-depan-6a951a25a01fe598997387.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5de2e479-1102-4b33-9207-6193c40d74da",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 492
     },
     {
@@ -8379,7 +8379,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta III",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/depan-livina-6ac45eed1a00d639946417.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3e5e4bfc-7215-45d6-9f3b-19eeeb525e71",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 493
     },
     {
@@ -8396,7 +8396,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/depan-6acd9a20a090a386937871.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/55a633c1-c966-4592-a38f-5a3bcf88ddad",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 494
     },
     {
@@ -8413,7 +8413,7 @@
       "KPKNL Penyelenggara": "KPKNL Banda Aceh",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/08/whatsapp-image-2025-09-19-at-10-15-22-f195fac7-68cccaedc0e1c725376150-6a9f827a3677a295629107.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67051f1c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cc94cdd6-5970-4a53-b84d-c129f93ca55e",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 495
     },
     {
@@ -8430,7 +8430,7 @@
       "KPKNL Penyelenggara": "KPKNL Pangkal Pinang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/depan-6ac714ed69ed0068825850.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052f70-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9b7e4301-ef75-47e1-b7ad-d5078d00eec5",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 496
     },
     {
@@ -8447,7 +8447,7 @@
       "KPKNL Penyelenggara": "KPKNL Palembang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/whatsapp-image-2026-09-17-at-09-04-20-6ac45044cf195137931937.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052b6a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7990c696-e673-4486-9d88-7caf1ef77a03",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 497
     },
     {
@@ -8464,7 +8464,7 @@
       "KPKNL Penyelenggara": "KPKNL Palembang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/23/foto-lelang-yoanda-prima-1-6ab3c5826efc9882430890.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052b6a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7865b5f1-b93b-41ae-ab2f-36378c89284d",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 498
     },
     {
@@ -8481,7 +8481,7 @@
       "KPKNL Penyelenggara": "KPKNL Pangkal Pinang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/depan-6ac5be434ef53098862802.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052f70-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/baeeaa6b-51e9-45f6-ac72-5af5f4eca6d2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 499
     },
     {
@@ -8498,7 +8498,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta IV",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/19/whatsapp-image-2026-09-22-at-10-34-19-6ad59d4130198354821179.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053e2a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d49d73e6-ab0e-43ca-a95c-13085737a61a",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 500
     },
     {
@@ -8515,7 +8515,7 @@
       "KPKNL Penyelenggara": "KPKNL Tangerang II",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/whatsapp-image-2026-09-28-at-13-35-22-6aba435c2d059063324207.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670536b4-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a4a68ab6-c8e5-41ed-88cd-5884fd767be5",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 501
     },
     {
@@ -8583,7 +8583,7 @@
       "KPKNL Penyelenggara": "KPKNL Madiun",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/img-20190806-wa0002-6ac74d27b1a2f476426178.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670606c0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/193daf04-8c17-4e30-9548-7254cadb4c85",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 505
     },
     {
@@ -8600,7 +8600,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/depan-6ac5a84392c71492011001.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/99c65d81-6461-4cf2-b4a4-bb3df9a0f48b",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 506
     },
     {
@@ -8617,7 +8617,7 @@
       "KPKNL Penyelenggara": "KPKNL Jayapura",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/04/20250307-104110-truck-isuzu-nkr-58-truck-attachment-3020103001-2-tampak-belakang-6a71864f1bd82841065642.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062b46-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4b8beecb-81a3-4295-8aaa-7bcbaaa24008",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 507
     },
     {
@@ -8634,7 +8634,7 @@
       "KPKNL Penyelenggara": "KPKNL Jayapura",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/04/foto-maven-6-6a7185d24bdbf445104487.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062b46-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f7e52610-0dad-4fbb-9774-b96374c59f56",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 508
     },
     {
@@ -8651,7 +8651,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/05/whatsapp-image-2026-09-11-at-10-53-35-6ac3187b095c1704103613.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/1e798ae1-50c0-44cf-86d5-71009f75059a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 509
     },
     {
@@ -8668,7 +8668,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/05/whatsapp-image-2026-09-11-at-11-22-22-6ac31e0c148f4668263911.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/af17d4fd-7f16-4fab-9549-d54e01dee20e",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 510
     },
     {
@@ -8702,7 +8702,7 @@
       "KPKNL Penyelenggara": "KPKNL Banjarmasin",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/25/nup-1-da-874-ai-1-6ab60134b5782436487150.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706125a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4189ed90-b5b2-4fca-9c3f-4c66fb7f021c",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 512
     },
     {
@@ -8719,7 +8719,7 @@
       "KPKNL Penyelenggara": "KPKNL Jayapura",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-09-22-at-10-07-17-6ab1d504d3714318088593.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062b46-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/72b4ec07-bc4b-44c2-8217-79301b92acae",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 513
     },
     {
@@ -8736,7 +8736,7 @@
       "KPKNL Penyelenggara": "KPKNL Manado",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/whatsapp-image-2026-08-05-at-14-26-54-6acd957145a3c975229235.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/20abf9f6-8b8e-4f33-80b0-89de8913cd33",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 514
     },
     {
@@ -8753,7 +8753,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/depan-6ab9cbec8b19f517668884.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9f20bbc9-3ce4-4fdc-8cbf-7c184ce4d854",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 515
     },
     {
@@ -8770,7 +8770,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/depan-6ab9ca8aa4988809081087.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b7217fc9-3deb-4616-adea-14ae27e1d79a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 516
     },
     {
@@ -8787,7 +8787,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/depan-6ab9cb6d3603c704077278.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ba6f6303-2f63-4a26-87a2-3a99a1a9ef01",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 517
     },
     {
@@ -8804,7 +8804,7 @@
       "KPKNL Penyelenggara": "KPKNL Makassar",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/depan-6ab9cf334ad31768584815.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0851f750-e4a2-4342-8038-eab097007aa2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 518
     },
     {
@@ -8838,7 +8838,7 @@
       "KPKNL Penyelenggara": "KPKNL Metro",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/2-6acde1169066c155596027.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670532cc-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/89674f09-5480-4446-99af-a319ec216a77",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 520
     },
     {
@@ -8855,7 +8855,7 @@
       "KPKNL Penyelenggara": "KPKNL Palembang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/13/foto-kendaraan-1866-4-6acd6cead709c703514116.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052b6a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/39f99051-f845-4345-ad5c-4b2d1b6cdc86",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 521
     },
     {
@@ -8872,7 +8872,7 @@
       "KPKNL Penyelenggara": "KPKNL Bukittinggi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/29/whatsapp-image-2026-09-29-at-22-14-35-6abbdd9e6e2c9184277816.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705284a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6ec8f06d-af8e-445c-a318-14ce6b7aed59",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 522
     },
     {
@@ -8889,7 +8889,7 @@
       "KPKNL Penyelenggara": "KPKNL Semarang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/25/whatsapp-image-2026-06-23-at-14-02-14-6ab615e40db61632210542.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ec62-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/090dde07-9e6b-4fb5-ad96-928c62364ca2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 523
     },
     {
@@ -8906,7 +8906,7 @@
       "KPKNL Penyelenggara": "KPKNL Bogor",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/24/tampak-depan-apv-6a8bcec2e2cd3357075217.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b20b3967-3fe1-465f-aa52-f0ab6e29b76a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 524
     },
     {
@@ -8923,7 +8923,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta II",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/14/atas-6acf233fa515c255552849.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053a38-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/af218c90-06f7-4cb7-8df2-38f8b9c7198f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 525
     },
     {
@@ -8940,7 +8940,7 @@
       "KPKNL Penyelenggara": "KPKNL Batam",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-09-22-at-13-17-51-6ab21e03a60e8620810557.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670529d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5474a96f-7f8b-4261-88db-ddbbd2250be2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 526
     },
     {
@@ -8957,7 +8957,7 @@
       "KPKNL Penyelenggara": "KPKNL Batam",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/20241106-085939-whatsapp-image-2024-11-06-at-20-54-34-2-6ab22f1ce2b12506575850.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670529d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/fe46ca14-fc70-4c8f-8eac-66eeafa5def1",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 527
     },
     {
@@ -8974,7 +8974,7 @@
       "KPKNL Penyelenggara": "KPKNL Batam",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/whatsapp-image-2026-09-22-at-13-37-41-6ab22280cae2b563803042.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670529d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6db675f0-9435-444a-8eac-93f5ae0c9b95",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 528
     },
     {
@@ -8991,7 +8991,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/apul-pasaribu-6abe26d8c479f055240902.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9f1ea95f-2ca6-42ab-9614-d5f63b223825",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 529
     },
     {
@@ -9008,7 +9008,7 @@
       "KPKNL Penyelenggara": "KPKNL Dumai",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/yudi-4-6abe254dee2f2060861910.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67052a98-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0a4e01e8-821f-4668-9fa5-fa0b706cc52a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 530
     },
     {
@@ -9025,7 +9025,7 @@
       "KPKNL Penyelenggara": "KPKNL Lhokseumawe",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/16/whatsapp-image-2026-06-08-at-14-13-39-6ad1a6e09ca27629337277.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705205c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/892aa425-2232-4700-bf8c-c2134c4d2d52",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 531
     },
     {
@@ -9042,7 +9042,7 @@
       "KPKNL Penyelenggara": "KPKNL Bukittinggi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/19/1000428090-6ad5ccc27ce77527352226.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705284a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d37f0bc0-02c6-4f10-b9f7-aadded33b273",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 532
     },
     {
@@ -9059,7 +9059,7 @@
       "KPKNL Penyelenggara": "KPKNL Singkawang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/09/whatsapp-image-2026-08-07-at-10-28-09-2-6ac850dee6aa6091695060.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061124-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4fd71f63-9f4e-4f9e-999a-f08338f85d0f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 533
     },
     {
@@ -9076,7 +9076,7 @@
       "KPKNL Penyelenggara": "KPKNL Singkawang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/09/whatsapp-image-2026-08-07-at-10-28-08-1-6ac850ad75f50912394837.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061124-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3365c9d9-5bc9-475f-95e7-90cbaf0b81df",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 534
     },
     {
@@ -9093,7 +9093,7 @@
       "KPKNL Penyelenggara": "KPKNL Singkawang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/depan-6ac6f1863972b205178025.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061124-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7ae7a3b8-c5e9-4d10-b4b9-8f84f5c2e47f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 535
     },
     {
@@ -9110,7 +9110,7 @@
       "KPKNL Penyelenggara": "KPKNL Singkawang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/depan-6ac6f1e29013b668624542.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061124-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2f5c2c18-ab03-4e69-bd09-2366f5694b0a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 536
     },
     {
@@ -9127,7 +9127,7 @@
       "KPKNL Penyelenggara": "KPKNL Singkawang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/depan-6ac6f233f053e367573433.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061124-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0e9a8719-4611-4c0f-a992-8cc271163f08",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 537
     },
     {
@@ -9144,7 +9144,7 @@
       "KPKNL Penyelenggara": "KPKNL Mataram",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-09-24-at-09-13-54-6acc5c7078c72962568789.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061b10-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/087517e4-6e29-4db9-8c7c-e2a822e640d2",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 538
     },
     {
@@ -9161,7 +9161,7 @@
       "KPKNL Penyelenggara": "KPKNL Mataram",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-05-21-at-11-14-36-6a7be45ac43fd158898161.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061b10-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/dcc05f7b-b6a3-4a71-8983-8a4dd161bf7e",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 539
     },
     {
@@ -9178,7 +9178,7 @@
       "KPKNL Penyelenggara": "KPKNL Mataram",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/08/12/whatsapp-image-2026-05-21-at-11-16-52-6a7be609a2a79028998000.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061b10-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5f0676bd-675f-4ad8-988f-edd3dc6247dc",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 540
     },
     {
@@ -9195,7 +9195,7 @@
       "KPKNL Penyelenggara": "KPKNL Biak",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/16/pa-1604-cf-10-6ad1c790aea91526663612.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670632d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4a4b9813-ffd2-4d29-900b-443abc380cbb",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 541
     },
     {
@@ -9212,7 +9212,7 @@
       "KPKNL Penyelenggara": "KPKNL Biak",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/19/pa-1571-an-depan-6ad5915f82b52696568121.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670632d0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/19e08ee4-761d-493c-9be5-cfdf16e72fd5",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 542
     },
     {
@@ -9229,7 +9229,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta II",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/19/gambar-1245-2-6ad5960c5e9e6220733010.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053a38-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/56964f66-8e3c-4960-8660-79b1f8063bf6",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 543
     },
     {
@@ -9246,7 +9246,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/15/whatsapp-image-2026-10-09-at-16-06-03-6ad03c85b38b0464633857.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/68f608f1-4095-4f8d-aca0-bc02685acaf3",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 544
     },
     {
@@ -9263,7 +9263,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/14/whatsapp-image-2026-10-14-at-17-03-27-6acf45ef06d12170498190.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/dfe3b3d8-3f83-4365-8bc1-680d219f2ca5",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 545
     },
     {
@@ -9280,7 +9280,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/14/whatsapp-image-2026-10-09-at-16-03-40-1-6acf38a58c21c085170698.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/80a63001-cf60-49b9-91ed-d2ef4b393e58",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 546
     },
     {
@@ -9297,7 +9297,7 @@
       "KPKNL Penyelenggara": "KPKNL Balikpapan",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-05-19-at-09-25-23-6aac9e2a3f67e458517981.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67061610-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/65075b38-b94b-4148-b1bf-1dec87432427",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 547
     },
     {
@@ -9314,7 +9314,7 @@
       "KPKNL Penyelenggara": "KPKNL Banjarmasin",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-05-at-14-13-32-6acc2e3c9297e493155574.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706125a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/21506616-000d-464e-8d16-7cea6f895684",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 548
     },
     {
@@ -9331,7 +9331,7 @@
       "KPKNL Penyelenggara": "KPKNL Banjarmasin",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-05-at-15-33-43-1-6acc265d6ace9576893215.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6706125a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a6dd1744-c0dd-423a-866a-7a3034e9a36c",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 549
     },
     {
@@ -9348,7 +9348,7 @@
       "KPKNL Penyelenggara": "KPKNL Semarang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/20260416-145307-config-iphone-17-pro-max-6ac453b169fd7439419347.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ec62-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d1ca0886-d6d6-4ab2-98a5-18173fb0de2b",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 550
     },
     {
@@ -9365,7 +9365,7 @@
       "KPKNL Penyelenggara": "KPKNL Bukittinggi",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-11-03-11-1-6acc5f9bec710208354265.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705284a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0835da6b-7e5f-41f9-9d6a-0ba0350d243f",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 551
     },
     {
@@ -9382,7 +9382,7 @@
       "KPKNL Penyelenggara": "KPKNL Jakarta III",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/22/8298-belakang-6ab23b96b7aec166112675.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6ce61db0-a13e-433f-92fc-90feaf4b745e",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 552
     },
     {
@@ -9399,7 +9399,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-04-at-11-25-00-6abdd6fe9bdcc118166433.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/51114283-7e10-4004-a0b4-acb01273d806",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 553
     },
     {
@@ -9416,7 +9416,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-04-at-11-22-26-6abdcf64d6b0d783712415.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0df647e1-f050-4d0a-9bdd-5c133fb22401",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 554
     },
     {
@@ -9433,7 +9433,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-04-at-11-18-44-6abdd17772e30087435300.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b903f122-6dd6-46a8-8ba9-0efa9621a1fa",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 555
     },
     {
@@ -9450,7 +9450,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-08-25-44-1-6abddd916a5c4383056598.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a8870395-11a4-4dd6-9409-e7163abd886a",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 556
     },
     {
@@ -9467,7 +9467,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-28-at-08-21-11-6abe33d371ae6945393666.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ddeb43b5-6399-4169-ba47-daf5e21646c0",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 557
     },
     {
@@ -9484,7 +9484,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-09-22-02-1-6abde34dee79d965353183.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/15a86429-9449-468e-bcda-ea90a3ffc7e3",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 558
     },
     {
@@ -9501,7 +9501,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-29-at-09-37-24-6abe320d932a4273392941.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a37cd4d2-b217-4fcc-82a9-9f88194bd2b0",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 559
     },
     {
@@ -9518,7 +9518,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-09-28-at-08-24-51-6abde59fbd14f149458811.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6533a9e8-d0a3-4e1f-8c82-bcef40fd3228",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 560
     },
     {
@@ -9535,7 +9535,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-09-37-43-2-6abddfe23deb6868809532.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9e30efc8-f746-42d0-8d6a-d6df570cd1f8",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 561
     },
     {
@@ -9552,7 +9552,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-08-42-18-6abde137891e0999094568.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0a7ca98c-dec5-4528-ad32-dd919d834879",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 562
     },
     {
@@ -9569,7 +9569,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-09-08-28-6abde4a98e9b5573197287.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ccb5319b-66b4-44f4-8fe7-1f2a0b86e5fa",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 563
     },
     {
@@ -9586,7 +9586,7 @@
       "KPKNL Penyelenggara": "KPKNL Yogyakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/01/whatsapp-image-2026-08-01-at-09-50-29-6abde26f89887686016299.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705f6c6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/958ecc82-a16c-4bc4-8738-9b0cfe1847c4",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 564
     },
     {
@@ -9603,8 +9603,977 @@
       "KPKNL Penyelenggara": "KPKNL Surakarta",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/20/nissan-livina-1-6ad6fcf5dc6d4517117997.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/9bfac9cb-4ee2-43eb-ba60-1370aeaf4071",
-      "Status": "selesai",
+      "Status": "aktif",
       "No": 565
+    },
+    {
+      "ID_Lot": "a8133515-d7c9-4c22-9f07-c9dee2c9e79a",
+      "Nama / Unit Kendaraan": "TOYOTA AVANZA 1.3 E M/T dengan kondisi mangkrak di Kota Palu",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "DN 1697 AV",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA2JFJ012489",
+      "Nilai Limit (Rp)": "91,900,000",
+      "Uang Jaminan (Rp)": "9,190,000",
+      "Batas Penawaran": "28 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-28T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palu",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/16/whatsapp-image-2026-10-16-at-10-24-09-6ad18d6f41067308382308.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062704-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a8133515-d7c9-4c22-9f07-c9dee2c9e79a",
+      "Status": "aktif",
+      "No": 566
+    },
+    {
+      "ID_Lot": "4026c621-440c-4714-bf05-dbdab0372c9b",
+      "Nama / Unit Kendaraan": "TOYOTA AVANZA 1.3 E M/T dengan kondisi baik di Kota Palu",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "DN 1696 AV",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA2JFJ014715",
+      "Nilai Limit (Rp)": "91,900,000",
+      "Uang Jaminan (Rp)": "9,190,000",
+      "Batas Penawaran": "28 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-28T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palu",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/16/whatsapp-image-2026-10-16-at-11-04-59-6ad196f94c3e4500213223.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062704-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4026c621-440c-4714-bf05-dbdab0372c9b",
+      "Status": "aktif",
+      "No": 567
+    },
+    {
+      "ID_Lot": "40040efd-4531-4019-b68c-f62f06d7e9bd",
+      "Nama / Unit Kendaraan": "Mobil Toyota Kijang Innova G Tahun 2013, Nopol DM 1705 AG, BPKB/STNK ada, kondisi apa adanya di Kota Gorontalo",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "DM 1705 AG",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHFXW42G1D2268822",
+      "Nilai Limit (Rp)": "119,900,000",
+      "Uang Jaminan (Rp)": "23,980,000",
+      "Batas Penawaran": "28 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-28T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Gorontalo",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/dm-1705-ag-6acc5d4b7414f187103250.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062376-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/40040efd-4531-4019-b68c-f62f06d7e9bd",
+      "Status": "aktif",
+      "No": 568
+    },
+    {
+      "ID_Lot": "0b962dfa-5566-48ce-9a35-1ec471b7d43d",
+      "Nama / Unit Kendaraan": "Mobil Toyota Kijang Innova G Tahun 2013, Nopol DM 1648 AF, BPKB/STNK ada, kondisi apa adanya di Kota Gorontalo",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "DM 1648 AF",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFXW42G3D2250247",
+      "Nilai Limit (Rp)": "119,900,000",
+      "Uang Jaminan (Rp)": "23,980,000",
+      "Batas Penawaran": "28 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-28T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Gorontalo",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/dm-1648-af-2-6acc76d7abc2a513136736.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062376-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0b962dfa-5566-48ce-9a35-1ec471b7d43d",
+      "Status": "aktif",
+      "No": 569
+    },
+    {
+      "ID_Lot": "bf3a785c-af03-4689-aa92-49695e203f90",
+      "Nama / Unit Kendaraan": "TOYOTA AVANZA 1.3 E M/T dengan kondisi mangkrak di Kota Palu",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "DN 1694 AV",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA2JFJ013976",
+      "Nilai Limit (Rp)": "67,200,000",
+      "Uang Jaminan (Rp)": "6,720,000",
+      "Batas Penawaran": "28 Oktober 2026 09:05 WIB",
+      "Batas_ISO": "2026-10-28T09:05:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palu",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/22/whatsapp-image-2026-10-15-at-15-41-00-6ad971f87d65e778143637.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062704-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/bf3a785c-af03-4689-aa92-49695e203f90",
+      "Status": "aktif",
+      "No": 570
+    },
+    {
+      "ID_Lot": "f02b55a9-c595-44c0-8c06-8aff7111ad90",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA ALL NEW KIJANG di Kab. Karawang",
+      "Tahun Pembuatan": "2016",
+      "Nomor Polisi": "T 1050 FF",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFGB8EM4G0408423",
+      "Nilai Limit (Rp)": "152,082,000",
+      "Uang Jaminan (Rp)": "152,082,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-09-31-34-6acc46aa8a5d1483313630.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f02b55a9-c595-44c0-8c06-8aff7111ad90",
+      "Status": "aktif",
+      "No": 571
+    },
+    {
+      "ID_Lot": "13ff6335-c5bd-4e39-9942-48fa4065d1a5",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 di Kab. Karawang",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "T 973 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFFMRGK35K063942",
+      "Nilai Limit (Rp)": "32,619,000",
+      "Uang Jaminan (Rp)": "32,619,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-37-6acc8ec2069a0850976347.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/13ff6335-c5bd-4e39-9942-48fa4065d1a5",
+      "Status": "aktif",
+      "No": 572
+    },
+    {
+      "ID_Lot": "2460244b-d474-43dd-931a-f237f5965725",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA di Kab. Karawang",
+      "Tahun Pembuatan": "2010",
+      "Nomor Polisi": "T 1267 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFM1BA3JAK222192",
+      "Nilai Limit (Rp)": "24,637,000",
+      "Uang Jaminan (Rp)": "24,637,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-09-14-44-6acc42b7eda70332355574.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/2460244b-d474-43dd-931a-f237f5965725",
+      "Status": "aktif",
+      "No": 573
+    },
+    {
+      "ID_Lot": "836a9144-41f4-4628-ac24-97a25a4ab193",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA KIJANG STD KF 42 di Kab. Karawang",
+      "Tahun Pembuatan": "1996",
+      "Nomor Polisi": "T 207 D",
+      "Warna": "HIJAU",
+      "Nomor Rangka": "MHF21KF4200042952",
+      "Nilai Limit (Rp)": "11,108,000",
+      "Uang Jaminan (Rp)": "11,108,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-49-6acc8fa9dcf79460797090.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/836a9144-41f4-4628-ac24-97a25a4ab193",
+      "Status": "aktif",
+      "No": 574
+    },
+    {
+      "ID_Lot": "f42b21b1-0893-4901-91ab-db24de955756",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA di Kab. Karawang",
+      "Tahun Pembuatan": "2010",
+      "Nomor Polisi": "T 1262 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFM1BA3JAK223922",
+      "Nilai Limit (Rp)": "24,637,000",
+      "Uang Jaminan (Rp)": "24,637,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-09-57-11-6acc4f93373ab379654483.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f42b21b1-0893-4901-91ab-db24de955756",
+      "Status": "aktif",
+      "No": 575
+    },
+    {
+      "ID_Lot": "8c43f87a-24d9-4862-a8a4-3da3d84ba733",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 FORD RANGER di Kab. Karawang",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "T 9951 F",
+      "Warna": "MERAH",
+      "Nomor Rangka": "MNBLMFF80DW211927",
+      "Nilai Limit (Rp)": "53,168,000",
+      "Uang Jaminan (Rp)": "53,168,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-10-20-37-6acc521f405d3475149336.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8c43f87a-24d9-4862-a8a4-3da3d84ba733",
+      "Status": "aktif",
+      "No": 576
+    },
+    {
+      "ID_Lot": "8a2ef38c-73d4-4d63-afbc-d31185a5268c",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA KIJANG INNOVA G di Kab. Karawang",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "T 99 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHFXW42G672091017",
+      "Nilai Limit (Rp)": "29,620,000",
+      "Uang Jaminan (Rp)": "29,620,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-10-26-21-1-6acc53811aab9702879066.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8a2ef38c-73d4-4d63-afbc-d31185a5268c",
+      "Status": "aktif",
+      "No": 577
+    },
+    {
+      "ID_Lot": "a06b2a11-a085-4fa5-b78d-e2e64bd90f64",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 NISSAN NAVARA di Kab. Karawang",
+      "Tahun Pembuatan": "2012",
+      "Nomor Polisi": "T 8744 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MNTVCUD40Z0602770",
+      "Nilai Limit (Rp)": "83,073,000",
+      "Uang Jaminan (Rp)": "83,073,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-55-6acc8ff50ea1d225084495.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a06b2a11-a085-4fa5-b78d-e2e64bd90f64",
+      "Status": "aktif",
+      "No": 578
+    },
+    {
+      "ID_Lot": "abc4675a-ac23-46c2-998c-e0cbfd6bf0a0",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 NISSAN X-TRAIL di Kab. Karawang",
+      "Tahun Pembuatan": "2012",
+      "Nomor Polisi": "T 1346 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHBF2CG3FCJ006946",
+      "Nilai Limit (Rp)": "32,085,000",
+      "Uang Jaminan (Rp)": "32,085,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-08-53-09-6acc3da4c647d245925077.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/abc4675a-ac23-46c2-998c-e0cbfd6bf0a0",
+      "Status": "aktif",
+      "No": 579
+    },
+    {
+      "ID_Lot": "5e76faa8-ef18-4e00-b4d4-7b7d96ce14bf",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA di Kab. Karawang",
+      "Tahun Pembuatan": "2006",
+      "Nomor Polisi": "T 1010 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFFMRGK36K086462",
+      "Nilai Limit (Rp)": "26,058,000",
+      "Uang Jaminan (Rp)": "26,058,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-15-48-25-6acca39039dc3292073209.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/5e76faa8-ef18-4e00-b4d4-7b7d96ce14bf",
+      "Status": "aktif",
+      "No": 580
+    },
+    {
+      "ID_Lot": "fcf58c64-6ac8-4654-be19-6d05fea08e54",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI GRAND VITARA di Kab. Karawang",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "T 1094 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHYJTE54VAJ101743",
+      "Nilai Limit (Rp)": "42,411,000",
+      "Uang Jaminan (Rp)": "42,411,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-09-05-51-6acc40adbac96553545686.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/fcf58c64-6ac8-4654-be19-6d05fea08e54",
+      "Status": "aktif",
+      "No": 581
+    },
+    {
+      "ID_Lot": "402eed46-825f-414e-9a26-2bb29699faaa",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA KIJANG INNOVA G di Kab. Karawang",
+      "Tahun Pembuatan": "-",
+      "Nomor Polisi": "-",
+      "Warna": "-",
+      "Nomor Rangka": "-",
+      "Nilai Limit (Rp)": "23,862,000",
+      "Uang Jaminan (Rp)": "23,862,000",
+      "Batas Penawaran": "-",
+      "Batas_ISO": "-",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://lelang.go.iddata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOoSURBVHgB7ZuBVdswEIYvTMAGeAPYgGwAG5hOkBFgA7qBu0FGSDsBbOAygekEf3VEad30zjrJCpEC33t68GLpLN3pdNLZJvrkkw/HgmYA4Nz9uXSlceXVlefFYvFCpwoP2JWVKxvIdF4pp4Mf9L0rA8I80angBtMaBz3mnmrHDeIRafRUM9j6b3CQE/WuqUYCA2cXuHelGdXfCPU2VBt+YBrsBudCm2ul/iXVAltzYuCrQNsnSVlUC9j6sERraLsS2g2oIe5jG9IkTGEL273AkNr+qEBetKJCFuT1ouywB93Xl5nklBv2lCmfZDHUFvZc59ZCh5N8FZWEvbPR/41w/Qcl4I613O5ZuHRHJQJ5lU4OUagp7ElzlGaACsLeGR0IN/U5s/NVuHRLpZHb8l6mFvYuqADGln/dv5ipk69UKJODzwD7t7TA/aKSgHwiW1Ii0M8JHZUG5ORF8CSnyGJf7wV5fSn+zoSm/RWlwdO9EX5/KDKv7yxyJ1hqTZFA39qWN913uM5dCR0eImWc1zDdRSDvyMydhp7mXlHpQD6KmjoOfUNT7FF2f3v7Xahj3Y5Ke3ZeRO+oBiAvVqaTGOR9QtG5u38s78/h+yGPB35DHwFl0Qr6rdKujrT1Duhx+iLQTlvw6nlowSAxCQE91NXjNpBz78EpDD17MyDDJsfLv8AhXQkzUlCQc3dMn6oA359ur08srz2IIiasHxwA5DR4kgJc/RtMvxXSe8Xk2z5Dt37wsAN9j29WgJexRhxcP8+TIejP6YM3gH6mZ1ip7UTbkLVD9Ni6RPpsgG59Fm7Z9V1iehDduIOwWTtGKQPmuARmpqO8AvqJDvI1XiQt1mbFsIIa/L8AhtggJeRCf+Ew5sTXI51B6riX20bK5rr29Jy/iaZl08NH/A1XsbxZ2yD/FrqRJOwvSkKf/j3iEh4tbJYSrW2Qb3aJWMGPmRSw66CGydqGe7SYUDTFAvncHq2AUQc7L7P3g15SZlgmhChCsWB68YpWwHuyrwBKwaCAIl883O8zpYJw+CoqYwsh30BzMCigK8UNICywNBeDAvha0jO/XGh9pBx44U+YpjvWLIASViknsH2Y0L2nEqAnV/I/O4R9B9cdWgnItCuNvSm7gTURscEB0lGY/mbg8GsQ4k9ca98meZ+Abep9M3GPP6n0WR8VGjvTuD+s6QeK4+0jxVH56X978a+57eTz9G1cWY6KxjfX9gu9N0hLQOTk+C9HIC0BMRdxt/kb7gimZeVey5wAAAAASUVORK5CYII=",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/402eed46-825f-414e-9a26-2bb29699faaa",
+      "Status": "aktif",
+      "No": 582
+    },
+    {
+      "ID_Lot": "04e329a3-d1ee-4260-8e4e-a68a4179c902",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA VELOZ di Kab. Karawang",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "T 1902 F",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1CA4JFK095383",
+      "Nilai Limit (Rp)": "35,654,000",
+      "Uang Jaminan (Rp)": "35,654,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://lelang.go.iddata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOoSURBVHgB7ZuBVdswEIYvTMAGeAPYgGwAG5hOkBFgA7qBu0FGSDsBbOAygekEf3VEad30zjrJCpEC33t68GLpLN3pdNLZJvrkkw/HgmYA4Nz9uXSlceXVlefFYvFCpwoP2JWVKxvIdF4pp4Mf9L0rA8I80angBtMaBz3mnmrHDeIRafRUM9j6b3CQE/WuqUYCA2cXuHelGdXfCPU2VBt+YBrsBudCm2ul/iXVAltzYuCrQNsnSVlUC9j6sERraLsS2g2oIe5jG9IkTGEL273AkNr+qEBetKJCFuT1ouywB93Xl5nklBv2lCmfZDHUFvZc59ZCh5N8FZWEvbPR/41w/Qcl4I613O5ZuHRHJQJ5lU4OUagp7ElzlGaACsLeGR0IN/U5s/NVuHRLpZHb8l6mFvYuqADGln/dv5ipk69UKJODzwD7t7TA/aKSgHwiW1Ii0M8JHZUG5ORF8CSnyGJf7wV5fSn+zoSm/RWlwdO9EX5/KDKv7yxyJ1hqTZFA39qWN913uM5dCR0eImWc1zDdRSDvyMydhp7mXlHpQD6KmjoOfUNT7FF2f3v7Xahj3Y5Ke3ZeRO+oBiAvVqaTGOR9QtG5u38s78/h+yGPB35DHwFl0Qr6rdKujrT1Duhx+iLQTlvw6nlowSAxCQE91NXjNpBz78EpDD17MyDDJsfLv8AhXQkzUlCQc3dMn6oA359ur08srz2IIiasHxwA5DR4kgJc/RtMvxXSe8Xk2z5Dt37wsAN9j29WgJexRhxcP8+TIejP6YM3gH6mZ1ip7UTbkLVD9Ni6RPpsgG59Fm7Z9V1iehDduIOwWTtGKQPmuARmpqO8AvqJDvI1XiQt1mbFsIIa/L8AhtggJeRCf+Ew5sTXI51B6riX20bK5rr29Jy/iaZl08NH/A1XsbxZ2yD/FrqRJOwvSkKf/j3iEh4tbJYSrW2Qb3aJWMGPmRSw66CGydqGe7SYUDTFAvncHq2AUQc7L7P3g15SZlgmhChCsWB68YpWwHuyrwBKwaCAIl883O8zpYJw+CoqYwsh30BzMCigK8UNICywNBeDAvha0jO/XGh9pBx44U+YpjvWLIASViknsH2Y0L2nEqAnV/I/O4R9B9cdWgnItCuNvSm7gTURscEB0lGY/mbg8GsQ4k9ca98meZ+Abep9M3GPP6n0WR8VGjvTuD+s6QeK4+0jxVH56X978a+57eTz9G1cWY6KxjfX9gu9N0hLQOTk+C9HIC0BMRdxt/kb7gimZeVey5wAAAAASUVORK5CYII=",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/04e329a3-d1ee-4260-8e4e-a68a4179c902",
+      "Status": "aktif",
+      "No": 583
+    },
+    {
+      "ID_Lot": "ea9159ec-cc38-40bb-8395-819e3b9e7463",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA di Kab. Karawang",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "T 1862 F",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA3JDJ046108",
+      "Nilai Limit (Rp)": "34,460,000",
+      "Uang Jaminan (Rp)": "34,460,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-08-47-36-6acc3c4df1bfa797268635.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ea9159ec-cc38-40bb-8395-819e3b9e7463",
+      "Status": "aktif",
+      "No": 584
+    },
+    {
+      "ID_Lot": "757a3d88-b227-43bc-91f2-7fa9180442a0",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA KIJANG STD KF 70 di Kab. Karawang",
+      "Tahun Pembuatan": "2003",
+      "Nomor Polisi": "T 921 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHF11KF7030041278",
+      "Nilai Limit (Rp)": "25,860,000",
+      "Uang Jaminan (Rp)": "25,860,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://lelang.go.iddata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOoSURBVHgB7ZuBVdswEIYvTMAGeAPYgGwAG5hOkBFgA7qBu0FGSDsBbOAygekEf3VEad30zjrJCpEC33t68GLpLN3pdNLZJvrkkw/HgmYA4Nz9uXSlceXVlefFYvFCpwoP2JWVKxvIdF4pp4Mf9L0rA8I80angBtMaBz3mnmrHDeIRafRUM9j6b3CQE/WuqUYCA2cXuHelGdXfCPU2VBt+YBrsBudCm2ul/iXVAltzYuCrQNsnSVlUC9j6sERraLsS2g2oIe5jG9IkTGEL273AkNr+qEBetKJCFuT1ouywB93Xl5nklBv2lCmfZDHUFvZc59ZCh5N8FZWEvbPR/41w/Qcl4I613O5ZuHRHJQJ5lU4OUagp7ElzlGaACsLeGR0IN/U5s/NVuHRLpZHb8l6mFvYuqADGln/dv5ipk69UKJODzwD7t7TA/aKSgHwiW1Ii0M8JHZUG5ORF8CSnyGJf7wV5fSn+zoSm/RWlwdO9EX5/KDKv7yxyJ1hqTZFA39qWN913uM5dCR0eImWc1zDdRSDvyMydhp7mXlHpQD6KmjoOfUNT7FF2f3v7Xahj3Y5Ke3ZeRO+oBiAvVqaTGOR9QtG5u38s78/h+yGPB35DHwFl0Qr6rdKujrT1Duhx+iLQTlvw6nlowSAxCQE91NXjNpBz78EpDD17MyDDJsfLv8AhXQkzUlCQc3dMn6oA359ur08srz2IIiasHxwA5DR4kgJc/RtMvxXSe8Xk2z5Dt37wsAN9j29WgJexRhxcP8+TIejP6YM3gH6mZ1ip7UTbkLVD9Ni6RPpsgG59Fm7Z9V1iehDduIOwWTtGKQPmuARmpqO8AvqJDvI1XiQt1mbFsIIa/L8AhtggJeRCf+Ew5sTXI51B6riX20bK5rr29Jy/iaZl08NH/A1XsbxZ2yD/FrqRJOwvSkKf/j3iEh4tbJYSrW2Qb3aJWMGPmRSw66CGydqGe7SYUDTFAvncHq2AUQc7L7P3g15SZlgmhChCsWB68YpWwHuyrwBKwaCAIl883O8zpYJw+CoqYwsh30BzMCigK8UNICywNBeDAvha0jO/XGh9pBx44U+YpjvWLIASViknsH2Y0L2nEqAnV/I/O4R9B9cdWgnItCuNvSm7gTURscEB0lGY/mbg8GsQ4k9ca98meZ+Abep9M3GPP6n0WR8VGjvTuD+s6QeK4+0jxVH56X978a+57eTz9G1cWY6KxjfX9gu9N0hLQOTk+C9HIC0BMRdxt/kb7gimZeVey5wAAAAASUVORK5CYII=",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/757a3d88-b227-43bc-91f2-7fa9180442a0",
+      "Status": "aktif",
+      "No": 585
+    },
+    {
+      "ID_Lot": "4986e2f8-636e-48de-b17b-693e65b67b87",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 TOYOTA AVANZA di Kab. Karawang",
+      "Tahun Pembuatan": "2005",
+      "Nomor Polisi": "T 1111 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFFMRGK35K064149",
+      "Nilai Limit (Rp)": "23,109,000",
+      "Uang Jaminan (Rp)": "23,109,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-38-02-6acc907ca05a9610214909.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4986e2f8-636e-48de-b17b-693e65b67b87",
+      "Status": "aktif",
+      "No": 586
+    },
+    {
+      "ID_Lot": "3b18fcfa-a710-41a5-9470-366ac6b6d90d",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI ST 150 di Kab. Karawang",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "T 8665 F",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHYESL4157J111050",
+      "Nilai Limit (Rp)": "13,174,000",
+      "Uang Jaminan (Rp)": "13,174,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-39-1-6acc8ef9b9aae644904050.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3b18fcfa-a710-41a5-9470-366ac6b6d90d",
+      "Status": "aktif",
+      "No": 587
+    },
+    {
+      "ID_Lot": "702d14c2-348a-494b-9f36-fd3c2fe7cc5b",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI APV di Kab. Karawang",
+      "Tahun Pembuatan": "2008",
+      "Nomor Polisi": "T 1044 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHYGDN41V8J301569",
+      "Nilai Limit (Rp)": "21,086,000",
+      "Uang Jaminan (Rp)": "21,086,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-10-14-43-6acc50d587460353262316.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/702d14c2-348a-494b-9f36-fd3c2fe7cc5b",
+      "Status": "aktif",
+      "No": 588
+    },
+    {
+      "ID_Lot": "a9e6b7bf-3486-45c4-8daa-5cade54a1eb1",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI APV di Kab. Karawang",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "T 1022 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHYGDN42V7J301966",
+      "Nilai Limit (Rp)": "19,846,000",
+      "Uang Jaminan (Rp)": "19,846,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-08-25-27-6acc372515ad5132928212.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a9e6b7bf-3486-45c4-8daa-5cade54a1eb1",
+      "Status": "aktif",
+      "No": 589
+    },
+    {
+      "ID_Lot": "4863f0ba-a7bd-4cb9-b534-4edbd35d00ec",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI APV di Kab. Karawang",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "T 1826 F",
+      "Warna": "ABU ABU METALIK",
+      "Nomor Rangka": "MHYGDN42VDJ378625",
+      "Nilai Limit (Rp)": "25,245,000",
+      "Uang Jaminan (Rp)": "25,245,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-38-10-6acc90e327086724258281.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4863f0ba-a7bd-4cb9-b534-4edbd35d00ec",
+      "Status": "aktif",
+      "No": 590
+    },
+    {
+      "ID_Lot": "cf61e444-664f-4705-80f9-9e78a51ec8b5",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 KIJANG STD KF 70 di Kab. Karawang",
+      "Tahun Pembuatan": "2003",
+      "Nomor Polisi": "T 917 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHF11KF7030040525",
+      "Nilai Limit (Rp)": "14,760,000",
+      "Uang Jaminan (Rp)": "14,760,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-56-6acc904b2caaf302158950.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/cf61e444-664f-4705-80f9-9e78a51ec8b5",
+      "Status": "aktif",
+      "No": 591
+    },
+    {
+      "ID_Lot": "04094a0c-a152-46a3-a654-2db3580349e2",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 KIJANG STD KF 70 di Kab. Karawang",
+      "Tahun Pembuatan": "2003",
+      "Nomor Polisi": "T 956 F",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHF11KF7030041600",
+      "Nilai Limit (Rp)": "14,613,000",
+      "Uang Jaminan (Rp)": "14,613,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-37-42-6acc8f2f623f9158786255.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/04094a0c-a152-46a3-a654-2db3580349e2",
+      "Status": "aktif",
+      "No": 592
+    },
+    {
+      "ID_Lot": "60c8240c-fe10-4e3c-a18c-355f0ec4e640",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI APV di Kab. Karawang",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "T 1024 F",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHYGDN42V7J300138",
+      "Nilai Limit (Rp)": "18,204,000",
+      "Uang Jaminan (Rp)": "18,204,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-08-40-53-6acc3ac78721d310046800.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/60c8240c-fe10-4e3c-a18c-355f0ec4e640",
+      "Status": "aktif",
+      "No": 593
+    },
+    {
+      "ID_Lot": "fcdc1660-ce8a-4b8a-8753-31710c226c80",
+      "Nama / Unit Kendaraan": "KENDARAAN RODA 4 SUZUKI APV di Kab. Karawang",
+      "Tahun Pembuatan": "2011",
+      "Nomor Polisi": "T 1342 F",
+      "Warna": "ABU ABU METALIK",
+      "Nomor Rangka": "MHYGDN42VBJ361901",
+      "Nilai Limit (Rp)": "25,850,000",
+      "Uang Jaminan (Rp)": "25,850,000",
+      "Batas Penawaran": "28 Oktober 2026 13:30 WIB",
+      "Batas_ISO": "2026-10-28T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Purwakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/12/whatsapp-image-2026-10-12-at-14-51-00-6acc927893549818568767.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705b15c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/fcdc1660-ce8a-4b8a-8753-31710c226c80",
+      "Status": "aktif",
+      "No": 594
+    },
+    {
+      "ID_Lot": "0a05e955-e8fa-4c4a-984a-8635654d7bce",
+      "Nama / Unit Kendaraan": "Toyota New Avanza Veloz 1.5 AT di Kota Adm. Jakarta Selatan",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "B 1384 SQP",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1CB4JDK02498",
+      "Nilai Limit (Rp)": "62,524,000",
+      "Uang Jaminan (Rp)": "31,262,000",
+      "Batas Penawaran": "29 Oktober 2026 09:25 WIB",
+      "Batas_ISO": "2026-10-29T09:25:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jakarta III",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/22/whatsapp-image-2026-09-07-at-12-30-49-6ad97b2c9b28f284801324.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67053bd2-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/0a05e955-e8fa-4c4a-984a-8635654d7bce",
+      "Status": "aktif",
+      "No": 595
+    },
+    {
+      "ID_Lot": "a6dd1f47-8e35-4bc1-be5d-13d85990ae5e",
+      "Nama / Unit Kendaraan": "TOYOTA NEW AVANZA 1.3 G M/T di Kab. Serdang Bedagai",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "BK 1795 MT",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA3JFK227189",
+      "Nilai Limit (Rp)": "81,500,000",
+      "Uang Jaminan (Rp)": "81,500,000",
+      "Batas Penawaran": "29 Oktober 2026 09:30 WIB",
+      "Batas_ISO": "2026-10-29T09:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Medan",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/20/whatsapp-image-2026-10-20-at-11-50-41-6ad70bf14935b689913758.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052142-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/a6dd1f47-8e35-4bc1-be5d-13d85990ae5e",
+      "Status": "aktif",
+      "No": 596
+    },
+    {
+      "ID_Lot": "16d18649-35b1-4e0a-af52-4d93b8589ea1",
+      "Nama / Unit Kendaraan": "1 (satu) unit Mobil suzuki APV warna Hitam dengan Nomor Polisi DT 1571 AB dengan Nomor Rangka MHYGDN42BJ-355854 dan Nomor Mesin G15AID-230362 di Kota Kendari",
+      "Tahun Pembuatan": "2026",
+      "Nomor Polisi": "DT 1571 AB",
+      "Warna": "HITAM DENGAN NOMOR POLISI",
+      "Nomor Rangka": "MHYGDN42BJ",
+      "Nilai Limit (Rp)": "16,611,000",
+      "Uang Jaminan (Rp)": "6,644,400",
+      "Batas Penawaran": "29 Oktober 2026 10:00 WIB",
+      "Batas_ISO": "2026-10-29T10:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Kendari",
+      "Link Foto": "https://lelang.go.iddata:image/png;base64,iVBORw0KGgoAAAANSUhEUgAAAD8AAAA/CAYAAABXXxDfAAAACXBIWXMAACxLAAAsSwGlPZapAAAAAXNSR0IArs4c6QAAAARnQU1BAACxjwv8YQUAAAOoSURBVHgB7ZuBVdswEIYvTMAGeAPYgGwAG5hOkBFgA7qBu0FGSDsBbOAygekEf3VEad30zjrJCpEC33t68GLpLN3pdNLZJvrkkw/HgmYA4Nz9uXSlceXVlefFYvFCpwoP2JWVKxvIdF4pp4Mf9L0rA8I80angBtMaBz3mnmrHDeIRafRUM9j6b3CQE/WuqUYCA2cXuHelGdXfCPU2VBt+YBrsBudCm2ul/iXVAltzYuCrQNsnSVlUC9j6sERraLsS2g2oIe5jG9IkTGEL273AkNr+qEBetKJCFuT1ouywB93Xl5nklBv2lCmfZDHUFvZc59ZCh5N8FZWEvbPR/41w/Qcl4I613O5ZuHRHJQJ5lU4OUagp7ElzlGaACsLeGR0IN/U5s/NVuHRLpZHb8l6mFvYuqADGln/dv5ipk69UKJODzwD7t7TA/aKSgHwiW1Ii0M8JHZUG5ORF8CSnyGJf7wV5fSn+zoSm/RWlwdO9EX5/KDKv7yxyJ1hqTZFA39qWN913uM5dCR0eImWc1zDdRSDvyMydhp7mXlHpQD6KmjoOfUNT7FF2f3v7Xahj3Y5Ke3ZeRO+oBiAvVqaTGOR9QtG5u38s78/h+yGPB35DHwFl0Qr6rdKujrT1Duhx+iLQTlvw6nlowSAxCQE91NXjNpBz78EpDD17MyDDJsfLv8AhXQkzUlCQc3dMn6oA359ur08srz2IIiasHxwA5DR4kgJc/RtMvxXSe8Xk2z5Dt37wsAN9j29WgJexRhxcP8+TIejP6YM3gH6mZ1ip7UTbkLVD9Ni6RPpsgG59Fm7Z9V1iehDduIOwWTtGKQPmuARmpqO8AvqJDvI1XiQt1mbFsIIa/L8AhtggJeRCf+Ew5sTXI51B6riX20bK5rr29Jy/iaZl08NH/A1XsbxZ2yD/FrqRJOwvSkKf/j3iEh4tbJYSrW2Qb3aJWMGPmRSw66CGydqGe7SYUDTFAvncHq2AUQc7L7P3g15SZlgmhChCsWB68YpWwHuyrwBKwaCAIl883O8zpYJw+CoqYwsh30BzMCigK8UNICywNBeDAvha0jO/XGh9pBx44U+YpjvWLIASViknsH2Y0L2nEqAnV/I/O4R9B9cdWgnItCuNvSm7gTURscEB0lGY/mbg8GsQ4k9ca98meZ+Abep9M3GPP6n0WR8VGjvTuD+s6QeK4+0jxVH56X978a+57eTz9G1cWY6KxjfX9gu9N0hLQOTk+C9HIC0BMRdxt/kb7gimZeVey5wAAAAASUVORK5CYII=",
+      "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/16d18649-35b1-4e0a-af52-4d93b8589ea1",
+      "Status": "aktif",
+      "No": 597
+    },
+    {
+      "ID_Lot": "f5132d34-bc9f-422d-a996-f0b5e127e813",
+      "Nama / Unit Kendaraan": "Lot 4, 1 (Satu) Unit Kendaraan Roda Empat Daihatsu F700RG TS Dengan Kondisi Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "2009",
+      "Nomor Polisi": "BH 1266 E",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHKG2CJ1J9K010203",
+      "Nilai Limit (Rp)": "27,100,000",
+      "Uang Jaminan (Rp)": "8,130,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/whatsapp-image-2026-07-21-at-11-15-22-1-6a968bf732cf0802651246.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f5132d34-bc9f-422d-a996-f0b5e127e813",
+      "Status": "aktif",
+      "No": 598
+    },
+    {
+      "ID_Lot": "f2de479e-41c2-4718-999d-8bf73fe9a806",
+      "Nama / Unit Kendaraan": "Micro Bus Merk Mitsubishi Tipe FE 349 di Kab. Bogor",
+      "Tahun Pembuatan": "2004",
+      "Nomor Polisi": "B 7271 MQ",
+      "Warna": "BIRU",
+      "Nomor Rangka": "MHMFE349E4R072006",
+      "Nilai Limit (Rp)": "40,051,000",
+      "Uang Jaminan (Rp)": "20,025,500",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Bogor",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/07/picture7-6ac5c776c4071507973852.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/f2de479e-41c2-4718-999d-8bf73fe9a806",
+      "Status": "aktif",
+      "No": 599
+    },
+    {
+      "ID_Lot": "26e1d0c0-cbc2-45eb-a9bf-cdd39604e072",
+      "Nama / Unit Kendaraan": "Lot 63, 1 (Satu) Unit Kendaraan Roda Empat TOYOTA KIJANG INNOVA BH 1175 E Dengan Kondisi SCRAP Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "-",
+      "Nomor Polisi": "BH 1175 E",
+      "Warna": "-",
+      "Nomor Rangka": "-",
+      "Nilai Limit (Rp)": "44,000,000",
+      "Uang Jaminan (Rp)": "13,200,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/whatsapp-image-2026-06-17-at-15-27-34-3-6a968d4d2bcfa857660092.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/26e1d0c0-cbc2-45eb-a9bf-cdd39604e072",
+      "Status": "aktif",
+      "No": 600
+    },
+    {
+      "ID_Lot": "616d4fc6-a9c4-437e-ba18-9564d97fb278",
+      "Nama / Unit Kendaraan": "Lot 2, 1 (Satu) Unit Kendaraan Roda Empat Toyota Rush 1.5 G M/T Dengan Kondisi Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "2014",
+      "Nomor Polisi": "BH 1198 E",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHFE2CJ2JEK048051",
+      "Nilai Limit (Rp)": "37,400,000",
+      "Uang Jaminan (Rp)": "11,220,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/whatsapp-image-2026-07-21-at-08-32-27-4-6a968f91c63a3954234745.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/616d4fc6-a9c4-437e-ba18-9564d97fb278",
+      "Status": "aktif",
+      "No": 601
+    },
+    {
+      "ID_Lot": "42235ca6-6615-4be4-872e-bfbf9e406cc1",
+      "Nama / Unit Kendaraan": "Lot 3, 1 (Satu) Unit Kendaraan Roda Empat Toyota Rush 1.5 S  Dengan Kondisi Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "BH 1194 E",
+      "Warna": "SILVER",
+      "Nomor Rangka": "MHFE2CJ3JDK064458",
+      "Nilai Limit (Rp)": "42,400,000",
+      "Uang Jaminan (Rp)": "12,720,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/whatsapp-image-2026-07-20-at-18-17-27-6a968bae8dbca766366798.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/42235ca6-6615-4be4-872e-bfbf9e406cc1",
+      "Status": "aktif",
+      "No": 602
+    },
+    {
+      "ID_Lot": "b9ce4b87-e9ac-48e4-a114-701d241a9aab",
+      "Nama / Unit Kendaraan": "Lot 1, 1 (Satu) Unit Kendaraan Roda Empat Toyota KF60 Pick Up Dengan Kondisi Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "2002",
+      "Nomor Polisi": "BH 9022 EZ",
+      "Warna": "HIJAU",
+      "Nomor Rangka": "MHF31KF602018906",
+      "Nilai Limit (Rp)": "18,800,000",
+      "Uang Jaminan (Rp)": "5,640,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/whatsapp-image-2026-08-19-at-10-53-44-1-6a96654abd03a090955015.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/b9ce4b87-e9ac-48e4-a114-701d241a9aab",
+      "Status": "aktif",
+      "No": 603
+    },
+    {
+      "ID_Lot": "d3cb11c6-d2de-470b-a3dd-a4ca7e02bd0f",
+      "Nama / Unit Kendaraan": "Lot 5, 1 (Satu) Unit Kendaraan Roda Empat DAIHATSU F700RG-TX MT Dengan Kondisi Apa Adanya (As Is) di Kab. Tanjung Jabung Barat",
+      "Tahun Pembuatan": "2011",
+      "Nomor Polisi": "BH 1132 E",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHKG2CJ2JBK052807",
+      "Nilai Limit (Rp)": "35,300,000",
+      "Uang Jaminan (Rp)": "10,590,000",
+      "Batas Penawaran": "30 Oktober 2026 09:00 WIB",
+      "Batas_ISO": "2026-10-30T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jambi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/01/img-0312-6a9664c9817ff405255376.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052d0e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d3cb11c6-d2de-470b-a3dd-a4ca7e02bd0f",
+      "Status": "aktif",
+      "No": 604
+    },
+    {
+      "ID_Lot": "3af20da9-8065-43ca-b365-2dffb70d5379",
+      "Nama / Unit Kendaraan": "1 (Satu) Unit Mobil Truck. Tipe MITSUBISHI, 37 (tiga puluh tujuh) Batang Pohon Akasia Berbentuk Bulat Dengan Ukuran Panjang Kurang Lebih 4 (meter) Dan 4 (empat) Batang Pohon Akasia Berbentuk Dengan Ukuran Panjang kurang Lebih 2 (dua) Meter, 1 (Satu) Unit Gergaji Mesin Potong Kayu Berwarna Jingga Dengan Merek NEW WEST, 1 (satu) Unit Handphone Merk REALME C2 Model RMX1941 Warna Biru (dalam keadaan mati) dan  barang bergerak lainnya di Kab. Way Kanan",
+      "Tahun Pembuatan": "2008",
+      "Nomor Polisi": "BE 8017 AE",
+      "Warna": "JINGGA DENGAN MEREK NEW W",
+      "Nomor Rangka": "MHMFE74P48K011274",
+      "Nilai Limit (Rp)": "36,804,000",
+      "Uang Jaminan (Rp)": "18,402,000",
+      "Batas Penawaran": "30 Oktober 2026 14:45 WIB",
+      "Batas_ISO": "2026-10-30T14:45:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Metro",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/20/whatsapp-image-2026-10-20-at-15-30-44-6ad726cb7f49e061791265.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/670532cc-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3af20da9-8065-43ca-b365-2dffb70d5379",
+      "Status": "aktif",
+      "No": 605
+    },
+    {
+      "ID_Lot": "201468fa-5d40-4605-9444-b027ea89a709",
+      "Nama / Unit Kendaraan": "2 kendaraan bermotor di Kota Makassar",
+      "Tahun Pembuatan": "2011",
+      "Nomor Polisi": "DD 4974 MZ",
+      "Warna": "HITAM BIRU",
+      "Nomor Rangka": "MH1JBE315BK110818",
+      "Nilai Limit (Rp)": "27,553,000",
+      "Uang Jaminan (Rp)": "6,900,000",
+      "Batas Penawaran": "02 November 2026 08:15 WIB",
+      "Batas_ISO": "2026-11-02T08:15:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Makassar",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/15/motor-1-6ad079ad9af0b996743490.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061dea-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/201468fa-5d40-4605-9444-b027ea89a709",
+      "Status": "aktif",
+      "No": 606
+    },
+    {
+      "ID_Lot": "912bf927-3748-48ab-9286-d9ce63c03482",
+      "Nama / Unit Kendaraan": "5 kendaraan bermotor di Kota Bogor",
+      "Tahun Pembuatan": "2008",
+      "Nomor Polisi": "F 1623 BY",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFM1CA4J8K011231",
+      "Nilai Limit (Rp)": "450,700,000",
+      "Uang Jaminan (Rp)": "90,140,000",
+      "Batas Penawaran": "02 November 2026 09:00 WIB",
+      "Batas_ISO": "2026-11-02T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Bogor",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/21/foto-lelang-kendaraan-2-6ab0ebaa236fc248261883.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705aec8-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/912bf927-3748-48ab-9286-d9ce63c03482",
+      "Status": "aktif",
+      "No": 607
+    },
+    {
+      "ID_Lot": "86445bb5-d498-4555-88c0-eed11073d09a",
+      "Nama / Unit Kendaraan": "5 kendaraan bermotor di Kota Adm. Jakarta Pusat",
+      "Tahun Pembuatan": "2006",
+      "Nomor Polisi": "B 1866 FQ",
+      "Warna": "HITAM METALIK",
+      "Nomor Rangka": "MHFXW42GX62078303",
+      "Nilai Limit (Rp)": "168,806,000",
+      "Uang Jaminan (Rp)": "42,201,500",
+      "Batas Penawaran": "02 November 2026 10:30 WIB",
+      "Batas_ISO": "2026-11-02T10:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Jakarta II",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/whatsapp-image-2026-09-30-at-08-29-01-2-6ac700cc0ee80364638660.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67053a38-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/86445bb5-d498-4555-88c0-eed11073d09a",
+      "Status": "aktif",
+      "No": 608
+    },
+    {
+      "ID_Lot": "26e63360-983b-498e-839d-575fd10d7976",
+      "Nama / Unit Kendaraan": "Truck merk Mitsubishi Colt Diesel FE 74, Nopol. AD-8589-CV, Noka. MHMFE74P47K005676, Nosin. 4D34TC85530, Tahun 2007 warna kuning di Kab. Ponorogo",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "AD 8589 CV",
+      "Warna": "KUNING DI KAB",
+      "Nomor Rangka": "MHMFE74P47K005676",
+      "Nilai Limit (Rp)": "76,099,000",
+      "Uang Jaminan (Rp)": "34,244,500",
+      "Batas Penawaran": "02 November 2026 10:30 WIB",
+      "Batas_ISO": "2026-11-02T10:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Madiun",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/16/whatsapp-image-2026-07-07-at-12-14-43-1-6ad1db107279e323004123.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/670606c0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/26e63360-983b-498e-839d-575fd10d7976",
+      "Status": "aktif",
+      "No": 609
+    },
+    {
+      "ID_Lot": "63b6dab6-9d16-48f5-97a7-c6696d5c2c93",
+      "Nama / Unit Kendaraan": "3 kendaraan bermotor di Kota Surabaya",
+      "Tahun Pembuatan": "1997",
+      "Nomor Polisi": "L 1056 TG",
+      "Warna": "BIRU",
+      "Nomor Rangka": "MHF11KF83Y0015273",
+      "Nilai Limit (Rp)": "111,440,000",
+      "Uang Jaminan (Rp)": "55,720,000",
+      "Batas Penawaran": "02 November 2026 13:00 WIB",
+      "Batas_ISO": "2026-11-02T13:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Surabaya",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/20/hijau-1-6ad72beb103f3856733351.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705fae0-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/63b6dab6-9d16-48f5-97a7-c6696d5c2c93",
+      "Status": "aktif",
+      "No": 610
+    },
+    {
+      "ID_Lot": "ca6d5c19-0dd3-4d85-abaa-0e4d6d998975",
+      "Nama / Unit Kendaraan": "Mobil Ambulance KIA K 2700 di Kab. Bekasi",
+      "Tahun Pembuatan": "2009",
+      "Nomor Polisi": "B 9093 EY",
+      "Warna": "SILVER METALIK",
+      "Nomor Rangka": "MJJ5D21129K004580",
+      "Nilai Limit (Rp)": "38,966,000",
+      "Uang Jaminan (Rp)": "38,966,000",
+      "Batas Penawaran": "02 November 2026 13:30 WIB",
+      "Batas_ISO": "2026-11-02T13:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Bekasi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/02/whatsapp-image-2026-06-04-at-11-00-41-1-6a97837965ae8050094660.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ac0c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ca6d5c19-0dd3-4d85-abaa-0e4d6d998975",
+      "Status": "aktif",
+      "No": 611
+    },
+    {
+      "ID_Lot": "620321a9-2e39-45f8-a2f4-01df4653323a",
+      "Nama / Unit Kendaraan": "1 (Satu) Paket Scrap Kendaraan Operasional Dinas dan Scrap Peralatan Mesin Kantor di Kab. Bekasi",
+      "Tahun Pembuatan": "-",
+      "Nomor Polisi": "-",
+      "Warna": "-",
+      "Nomor Rangka": "-",
+      "Nilai Limit (Rp)": "36,859,000",
+      "Uang Jaminan (Rp)": "36,859,000",
+      "Batas Penawaran": "02 November 2026 13:45 WIB",
+      "Batas_ISO": "2026-11-02T13:45:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Bekasi",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/picture3-6aacf0b721163411686614.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ac0c-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/620321a9-2e39-45f8-a2f4-01df4653323a",
+      "Status": "aktif",
+      "No": 612
+    },
+    {
+      "ID_Lot": "8b56eb80-dd05-4e2b-873c-37d443e875fc",
+      "Nama / Unit Kendaraan": "Mini Bus Toyota Kijang KF 60 di Kota Kupang",
+      "Tahun Pembuatan": "2004",
+      "Nomor Polisi": "DH 184 WA",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHF31KF6040032904",
+      "Nilai Limit (Rp)": "11,492,000",
+      "Uang Jaminan (Rp)": "11,492,000",
+      "Batas Penawaran": "03 November 2026 08:30 WIB",
+      "Batas_ISO": "2026-11-03T08:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Kupang",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/02/whatsapp-image-2026-09-02-at-08-27-56-6a976dd6beec1227546020.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061bf6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/8b56eb80-dd05-4e2b-873c-37d443e875fc",
+      "Status": "aktif",
+      "No": 613
+    },
+    {
+      "ID_Lot": "ada99fbc-0d48-47cb-b1d3-f8ccb40933b9",
+      "Nama / Unit Kendaraan": "Minibus Avanza Allnew di Kab. Manggarai Barat",
+      "Tahun Pembuatan": "2013",
+      "Nomor Polisi": "DH 1668 AK",
+      "Warna": "HITAM",
+      "Nomor Rangka": "MHKM1BA3JDK116061",
+      "Nilai Limit (Rp)": "110,800,000",
+      "Uang Jaminan (Rp)": "11,080,000",
+      "Batas Penawaran": "03 November 2026 09:30 WIB",
+      "Batas_ISO": "2026-11-03T09:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Kupang",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-06-26-at-18-01-24-1-6aac9eb582b78537950340.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061bf6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ada99fbc-0d48-47cb-b1d3-f8ccb40933b9",
+      "Status": "aktif",
+      "No": 614
+    },
+    {
+      "ID_Lot": "ca547ff3-b91a-4e77-ba96-2cb7cafcc54e",
+      "Nama / Unit Kendaraan": "Suzuki Ertiga 1.4 MT GL di Kota Kupang",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "DH 1107 AS",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHYKZE81SFJ251841",
+      "Nilai Limit (Rp)": "109,400,000",
+      "Uang Jaminan (Rp)": "10,940,000",
+      "Batas Penawaran": "03 November 2026 09:30 WIB",
+      "Batas_ISO": "2026-11-03T09:30:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Kupang",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-06-26-at-18-28-01-6aac9bece80b0076684593.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061bf6-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/ca547ff3-b91a-4e77-ba96-2cb7cafcc54e",
+      "Status": "aktif",
+      "No": 615
+    },
+    {
+      "ID_Lot": "4ca4c34d-225d-4fd2-8fa5-20ee210c1ed3",
+      "Nama / Unit Kendaraan": "Station Wagon – Suzuki APV di Kab. Sukoharjo",
+      "Tahun Pembuatan": "2006",
+      "Nomor Polisi": "AD 1092 XC",
+      "Warna": "BIRU METALIK",
+      "Nomor Rangka": "MHYGDN41V6J146708",
+      "Nilai Limit (Rp)": "34,584,000",
+      "Uang Jaminan (Rp)": "20,000,000",
+      "Batas Penawaran": "04 November 2026 11:00 WIB",
+      "Batas_ISO": "2026-11-04T11:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Surakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/16/whatsapp-image-2026-09-16-at-08-28-12-6aaa64e456d4d801135591.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/4ca4c34d-225d-4fd2-8fa5-20ee210c1ed3",
+      "Status": "aktif",
+      "No": 616
+    },
+    {
+      "ID_Lot": "25cd87dd-8158-4d67-b51a-0c50068af8b6",
+      "Nama / Unit Kendaraan": "Station Wagon – Suzuki APV di Kab. Sukoharjo",
+      "Tahun Pembuatan": "2006",
+      "Nomor Polisi": "AD 1256 XG",
+      "Warna": "BIRU METALIK",
+      "Nomor Rangka": "MHYGDN41V6J146701",
+      "Nilai Limit (Rp)": "34,584,000",
+      "Uang Jaminan (Rp)": "20,000,000",
+      "Batas Penawaran": "04 November 2026 11:00 WIB",
+      "Batas_ISO": "2026-11-04T11:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Surakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/18/whatsapp-image-2026-09-15-at-08-23-41-1-6aac994f5c3be168499552.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/25cd87dd-8158-4d67-b51a-0c50068af8b6",
+      "Status": "aktif",
+      "No": 617
+    },
+    {
+      "ID_Lot": "be8b71bb-77a5-4d98-80cc-2d30adadbfe0",
+      "Nama / Unit Kendaraan": "Station Wagon – Isuzu Panther di Kab. Sukoharjo",
+      "Tahun Pembuatan": "2005",
+      "Nomor Polisi": "AD 1064 XC",
+      "Warna": "ABU",
+      "Nomor Rangka": "MHCTBR54F5K270674",
+      "Nilai Limit (Rp)": "58,561,000",
+      "Uang Jaminan (Rp)": "25,000,000",
+      "Batas Penawaran": "04 November 2026 11:00 WIB",
+      "Batas_ISO": "2026-11-04T11:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Surakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/whatsapp-image-2026-10-08-at-06-48-37-6ac6e20955ce3694770459.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/be8b71bb-77a5-4d98-80cc-2d30adadbfe0",
+      "Status": "aktif",
+      "No": 618
+    },
+    {
+      "ID_Lot": "d1a552c7-4fd5-49fc-9610-bf42b9e40226",
+      "Nama / Unit Kendaraan": "Station Wagon – Nissan Grand Livina di Kab. Sukoharjo",
+      "Tahun Pembuatan": "2007",
+      "Nomor Polisi": "AD 1486 XB",
+      "Warna": "BIRU TUA METALIK",
+      "Nomor Rangka": "MHBG1CG2F7J004235",
+      "Nilai Limit (Rp)": "41,670,000",
+      "Uang Jaminan (Rp)": "20,000,000",
+      "Batas Penawaran": "04 November 2026 11:00 WIB",
+      "Batas_ISO": "2026-11-04T11:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Surakarta",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/16/whatsapp-image-2026-09-16-at-08-29-09-2-6aaa6721c21dc669211203.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/6705ef6e-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d1a552c7-4fd5-49fc-9610-bf42b9e40226",
+      "Status": "aktif",
+      "No": 619
+    },
+    {
+      "ID_Lot": "6fa0dc5a-96d3-4b8d-816a-e5d2981ed87f",
+      "Nama / Unit Kendaraan": "1 (satu) unit Truck merk Mitsubishi Tipe Colt Diesel FE Super HDX HI Gear 4x2 M/T Nomor Polisi KT 8033 OQ Nomor Rangka MHMFE75PFJK014562 Nomor Mesin 4D34TS96033 warna kuning di Kota Palangkaraya",
+      "Tahun Pembuatan": "2018",
+      "Nomor Polisi": "KT 8033 OQ",
+      "Warna": "KUNING DI KOTA PALANGKARA",
+      "Nomor Rangka": "MHMFE75PFJK014562",
+      "Nilai Limit (Rp)": "79,416,000",
+      "Uang Jaminan (Rp)": "39,708,000",
+      "Batas Penawaran": "05 November 2026 14:00 WIB",
+      "Batas_ISO": "2026-11-05T14:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palangkaraya",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/1-6ac47bd9aa94e287285475.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061354-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/6fa0dc5a-96d3-4b8d-816a-e5d2981ed87f",
+      "Status": "aktif",
+      "No": 620
+    },
+    {
+      "ID_Lot": "e54e0ca6-caff-4358-af09-45ee86aac84c",
+      "Nama / Unit Kendaraan": "TRUK HINO di Kota Palembang",
+      "Tahun Pembuatan": "2011",
+      "Nomor Polisi": "BG 8580 LU",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MJEFM2PKKBJZ13704",
+      "Nilai Limit (Rp)": "194,118,800",
+      "Uang Jaminan (Rp)": "19,411,880",
+      "Batas Penawaran": "09 November 2026 10:00 WIB",
+      "Batas_ISO": "2026-11-09T10:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palembang",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/08/barang-tampak-depan-6ac6f93073833937034697.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67052b6a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/e54e0ca6-caff-4358-af09-45ee86aac84c",
+      "Status": "aktif",
+      "No": 621
+    },
+    {
+      "ID_Lot": "535ab364-240d-4841-984d-49cbe57e1e5d",
+      "Nama / Unit Kendaraan": "MOBIL TOYOTA NEW AVANZA 1.3 E M/T TAHUN 2015 NOMOR POLISI KH 1158 TC di Kota Palangkaraya",
+      "Tahun Pembuatan": "2015",
+      "Nomor Polisi": "KH 1158 TC",
+      "Warna": "PUTIH",
+      "Nomor Rangka": "MHKM1BA2JFK063044",
+      "Nilai Limit (Rp)": "100,300,000",
+      "Uang Jaminan (Rp)": "78,000,000",
+      "Batas Penawaran": "10 November 2026 11:05 WIB",
+      "Batas_ISO": "2026-11-10T11:05:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Palangkaraya",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/foto-tampak-depan-sebelah-kanan-6aba27453e47a073709428.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67061354-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/535ab364-240d-4841-984d-49cbe57e1e5d",
+      "Status": "aktif",
+      "No": 622
     }
   ]
 }
