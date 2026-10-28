@@ -1,5 +1,5 @@
 {
-  "last_updated": "28 Oct 2026, 10:17 WIB",
+  "last_updated": "28 Oct 2026, 13:05 WIB",
   "items": [
     {
       "ID_Lot": "6e40e26a-0d69-4adb-b68d-134c59859ae8",
@@ -9348,7 +9348,7 @@
       "KPKNL Penyelenggara": "KPKNL Semarang",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/10/06/20260416-145307-config-iphone-17-pro-max-6ac453b169fd7439419347.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/6705ec62-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/d1ca0886-d6d6-4ab2-98a5-18173fb0de2b",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 550
     },
     {
@@ -11269,7 +11269,7 @@
       "KPKNL Penyelenggara": "KPKNL Kendari",
       "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2026/09/28/whatsapp-image-2025-05-02-at-08-53-27-6ab9cf1a99e73670033589.jpg",
       "Link Katalog": "https://lelang.go.id/kpknl/670621aa-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/3fdf9bd9-8a00-4875-9a04-cf4189a2104c",
-      "Status": "aktif",
+      "Status": "selesai",
       "No": 663
     },
     {
@@ -11883,6 +11883,23 @@
       "Link Katalog": "https://lelang.go.id/kpknl/67053e2a-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7ba7b43c-dde1-453c-8a03-353fe10f0f10",
       "Status": "aktif",
       "No": 699
+    },
+    {
+      "ID_Lot": "7d00cc64-ccef-4145-b326-e949f9c5b191",
+      "Nama / Unit Kendaraan": "MINI BUS TOYOTA DYNA BUX3 di Kota Manado",
+      "Tahun Pembuatan": "2006",
+      "Nomor Polisi": "DB 7028 A",
+      "Warna": "BIRU",
+      "Nomor Rangka": "MHFC1BUX360009408",
+      "Nilai Limit (Rp)": "23,846,000",
+      "Uang Jaminan (Rp)": "23,846,000",
+      "Batas Penawaran": "03 November 2026 09:00 WIB",
+      "Batas_ISO": "2026-11-03T09:00:00+07:00",
+      "KPKNL Penyelenggara": "KPKNL Manado",
+      "Link Foto": "https://file.lelang.go.id/lelang/photo_barang/2025/09/10/1-68c0fb7819178846535766.jpg",
+      "Link Katalog": "https://lelang.go.id/kpknl/67062290-f64f-11ed-b3e2-5620a0c2ec5a/detail-auction/7d00cc64-ccef-4145-b326-e949f9c5b191",
+      "Status": "aktif",
+      "No": 700
     }
   ]
 }
